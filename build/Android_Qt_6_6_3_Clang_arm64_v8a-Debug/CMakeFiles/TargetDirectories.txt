@@ -1,0 +1,7 @@
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/apk.dir
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/aab.dir
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/kaminari_app.dir
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/edit_cache.dir
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/rebuild_cache.dir
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/kaminari_app_autogen_timestamp_deps.dir
+/Users/AfamObioha/kaminari_app/build/Android_Qt_6_6_3_Clang_arm64_v8a-Debug/CMakeFiles/kaminari_app_autogen.dir
