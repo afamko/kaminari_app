@@ -13,6 +13,8 @@ android {
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
+
+        // Remove ndk block
     }
 
     buildTypes {
@@ -34,6 +36,23 @@ android {
     lint {
         abortOnError false // Prevent lint errors from stopping the build
     }
+
+    // Enable only splits for ABI
+    splits {
+        abi {
+            enable true
+            reset()
+            include "arm64-v8a" // Focus only on arm64-v8a
+            universalApk false // No universal APK needed
+        }
+    }
+
+    // Include the jniLibs directory
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
 }
 
 dependencies {
@@ -41,11 +60,11 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
-    
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    // Include your custom Qt JAR file
-    implementation files('/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/jar/Qt6Android.jar')
+    // Include Qt library from the libs folder
+    implementation files('libs/Qt6Android.jar')
 }

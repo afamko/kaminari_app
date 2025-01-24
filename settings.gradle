@@ -1,2 +1,2 @@
-rootProject.name = 'kaminari_app'
-include 'app'
+rootProject.name = "kaminari_app"
+include ':app'
