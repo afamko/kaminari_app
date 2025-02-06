@@ -1,0 +1,16 @@
+# ninja log v6
+3	310	1738695884802868074	kaminari_app_autogen/timestamp	5a5caaa1a31ae95d
+3	310	1738695884802868074	kaminari_app_autogen/mocs_compilation.cpp	5a5caaa1a31ae95d
+3	310	1738695884802868074	/Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/timestamp	5a5caaa1a31ae95d
+3	310	1738695884802868074	/Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/mocs_compilation.cpp	5a5caaa1a31ae95d
+310	348	1738695884848849447	qrc_myresources.cpp	591e0c052bd4f5e9
+310	348	1738695884848849447	/Users/AfamObioha/kaminari_app/build-android/qrc_myresources.cpp	591e0c052bd4f5e9
+350	1003	1738695884851625135	CMakeFiles/kaminari_app.dir/qrc_myresources.cpp.o	52357883766b0adb
+349	1401	1738695884850372269	CMakeFiles/kaminari_app.dir/FolderWidget.cpp.o	67bfada8c9021e0e
+349	1406	1738695884850848849	CMakeFiles/kaminari_app.dir/SketchPage.cpp.o	f9cdc7b36ac4a3ad
+349	1529	1738695884850705059	CMakeFiles/kaminari_app.dir/NewFolderDialog.cpp.o	931dac05671b8c4d
+348	1575	1738695884850028939	CMakeFiles/kaminari_app.dir/main.cpp.o	4a15de441c9d276b
+348	1606	1738695884849787482	CMakeFiles/kaminari_app.dir/kaminari_app_autogen/mocs_compilation.cpp.o	859a289edc737721
+349	1608	1738695884850524144	CMakeFiles/kaminari_app.dir/NewItemDialog.cpp.o	e3444d4c6823cea0
+349	1692	1738695884850211646	CMakeFiles/kaminari_app.dir/mainwindow.cpp.o	cef7ad35cacc9e51
+1692	1787	1738695886193643824	kaminari_app	6fb7fe8486ce1580

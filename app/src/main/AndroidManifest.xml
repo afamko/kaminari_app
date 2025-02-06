@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.AfamObioha.kaminari_app"
     android:versionCode="1"
@@ -16,7 +17,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
-            android:name="com.AfamObioha.kaminari_app.MainActivity"
+            android:name=".MainActivity"
             android:label="Kaminari App"
             android:exported="true">
             <intent-filter>

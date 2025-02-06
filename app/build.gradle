@@ -13,8 +13,9 @@ android {
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
-
-        // Remove ndk block
+        ndk {
+            abiFilters "arm64-v8a" // Ensure only arm64-v8a is included
+        }
     }
 
     buildTypes {
@@ -34,20 +35,10 @@ android {
     }
 
     lint {
-        abortOnError false // Prevent lint errors from stopping the build
+        abortOnError false
     }
 
-    // Enable only splits for ABI
-    splits {
-        abi {
-            enable true
-            reset()
-            include "arm64-v8a" // Focus only on arm64-v8a
-            universalApk false // No universal APK needed
-        }
-    }
-
-    // Include the jniLibs directory
+    // Ensure JNI libraries are included correctly
     sourceSets {
         main {
             jniLibs.srcDirs = ['src/main/jniLibs']
@@ -65,6 +56,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    // Include Qt library from the libs folder
+    // Ensure Qt Android jar is included
     implementation files('libs/Qt6Android.jar')
 }
