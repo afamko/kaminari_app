@@ -5,20 +5,25 @@ plugins {
 
 android {
     namespace "com.AfamObioha.kaminari_app"
-    compileSdkVersion 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.AfamObioha.kaminari_app"
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
+
         ndk {
-            abiFilters "arm64-v8a" // Ensure only arm64-v8a is included
+            abiFilters "arm64-v8a"
         }
     }
 
     buildTypes {
+        debug {
+            shrinkResources false
+            minifyEnabled false
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -26,36 +31,47 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 
     lint {
         abortOnError false
     }
 
-    // Ensure JNI libraries are included correctly
     sourceSets {
         main {
-            jniLibs.srcDirs = ['src/main/jniLibs']
+            java.srcDirs += 'src/main/java'
+            assets.srcDirs += ['src/main/assets']
+            jniLibs.srcDirs = ['src/main/jniLibs', 'src/main/libs']
         }
+    }
+
+    packagingOptions {
+        jniLibs.useLegacyPackaging = true  // ✅ Force extraction of .so files
+        doNotStrip 'lib/arm64-v8a/*.so'   // ✅ Prevent stripping of .so files
+        pickFirst 'lib/arm64-v8a/*.so'    // ✅ Ensure all .so files are included
     }
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.core:core-ktx:1.10.1'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.10"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10"
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.24"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    // Ensure Qt Android jar is included
-    implementation files('libs/Qt6Android.jar')
+    // Ensure Gradle includes Qt6Android.jar
+    implementation fileTree(dir: 'src/main/libs', include: ['*.jar'])
+    implementation files('src/main/assets/Qt6Android.jar')
+
+    // Include Qt6Android.jar only
+    runtimeOnly files('src/main/assets/Qt6Android.jar')
 }
