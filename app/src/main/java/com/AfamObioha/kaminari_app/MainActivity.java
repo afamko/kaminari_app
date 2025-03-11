@@ -3,110 +3,61 @@ package com.AfamObioha.kaminari_app;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import org.qtproject.qt.android.QtNative;
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-import java.io.InputStream;
-import java.io.FileOutputStream;
+import java.lang.System;
+
+import org.qtproject.qt.android.QtNative;
 
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
-    private static final String LOG_FILE = "/storage/emulated/0/Android/data/com.AfamObioha.kaminari_app/files/crash_log.txt";
-
-    private static final String[] LIBRARIES = {
-            "libQt6Core_arm64-v8a.so",
-            "libQt6Gui_arm64-v8a.so",
-            "libQt6Widgets_arm64-v8a.so",
-            "libQt6Qml_arm64-v8a.so",
-            "libQt6Quick_arm64-v8a.so",
-            "libQt6Network_arm64-v8a.so",
-            "libQt6QuickTemplates2_arm64-v8a.so",
-            "libQt6QuickControls2Basic_arm64-v8a.so",
-            "libQt6QmlModels_arm64-v8a.so",
-            "libQt6QuickParticles_arm64-v8a.so",
-            "libc++_shared.so"
-    };
-
-    private static boolean qtInitialized = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        logToFile("📂 Application Context: " + getApplicationContext());
-        logToFile("📂 Native Library Path: " + getApplicationInfo().nativeLibraryDir);
 
-        if (!qtInitialized) {
-            logToFile("🚀 Initializing Qt...");
-            extractAndLoadLibraries();
-            qtInitialized = true;
-        } else {
-            logToFile("⚠️ Qt is already initialized. Skipping duplicate initialization.");
-        }
+        Log.d(TAG, "📂 Application Context: " + getApplicationContext());
+        Log.d(TAG, "📂 Native Library Path: " + getApplicationInfo().nativeLibraryDir);
+        Log.d(TAG, "📂 Source APK Path: " + getApplicationInfo().sourceDir);
+        Log.d(TAG, "📂 Data Directory: " + getApplicationInfo().dataDir);
 
-        // 🔥 Corrected startApplication() call with try-catch
+        // ✅ Ensure Qt libraries are correctly loaded
+        loadQtLibraries();
+
+        // 🚀 Start Qt Application
         try {
-            logToFile("🚀 Starting Qt application...");
+            Log.d(TAG, "🚀 Starting Qt application...");
             QtNative.startApplication(getApplicationInfo().sourceDir, getApplicationInfo().dataDir);
-            logToFile("✅ Qt application started.");
+            Log.d(TAG, "✅ Qt application started.");
         } catch (Exception e) {
-            logToFile("❌ Failed to start Qt application: " + Log.getStackTraceString(e));
+            Log.e(TAG, "❌ Failed to start Qt application", e);
         }
     }
 
-    private void extractAndLoadLibraries() {
-        File libDir = new File(getApplicationContext().getFilesDir(), "libs");
-        if (!libDir.exists()) {
-            libDir.mkdirs();
-        }
+    private void loadQtLibraries() {
+        // ✅ Directly load libraries from nativeLibraryDir
+        String libPath = getApplicationInfo().nativeLibraryDir;
 
-        try (ZipFile apkZip = new ZipFile(getApplicationInfo().sourceDir)) {
-            for (String libName : LIBRARIES) {
-                File outFile = new File(libDir, libName);
+        String[] qtLibs = {
+                "c++_shared",
+                "Qt6Core",
+                "Qt6Gui",
+                "Qt6Widgets",
+                "Qt6Qml",
+                "Qt6Quick",
+                "Qt6Network",
+                "Qt6QuickTemplates2",
+                "Qt6QuickControls2Basic",
+                "Qt6QmlModels",
+                "Qt6QuickParticles"
+        };
 
-                if (!outFile.exists()) {
-                    String zipPath = "lib/arm64-v8a/" + libName;
-                    ZipEntry entry = apkZip.getEntry(zipPath);
-                    if (entry == null) {
-                        logToFile("❌ " + zipPath + " not found in APK!");
-                        continue;
-                    }
-
-                    try (InputStream inputStream = apkZip.getInputStream(entry);
-                            FileOutputStream outputStream = new FileOutputStream(outFile)) {
-                        byte[] buffer = new byte[4096];
-                        int bytesRead;
-                        while ((bytesRead = inputStream.read(buffer)) != -1) {
-                            outputStream.write(buffer, 0, bytesRead);
-                        }
-                        logToFile("✅ Extracted " + libName);
-                    }
-                }
-
-                // **Prevent QtQml.Models from registering twice**
-                if (libName.contains("Qt6QmlModels")) {
-                    logToFile("⚠️ Skipping reloading of Qt6QmlModels");
-                    continue;
-                }
-
-                // Load extracted library
-                System.load(outFile.getAbsolutePath());
-                logToFile("✅ Loaded " + libName);
+        for (String lib : qtLibs) {
+            try {
+                System.load(libPath + "/lib" + lib + ".so");
+                Log.d(TAG, "✅ Loaded " + lib);
+            } catch (UnsatisfiedLinkError e) {
+                Log.e(TAG, "❌ Failed to load " + lib, e);
             }
-        } catch (Exception e) {
-            logToFile("❌ Failed to extract/load libraries: " + Log.getStackTraceString(e));
-        }
-    }
-
-    private void logToFile(String message) {
-        Log.d(TAG, message);
-        try (PrintWriter out = new PrintWriter(new FileWriter(LOG_FILE, true))) {
-            out.println(message);
-        } catch (IOException e) {
-            Log.e(TAG, "❌ Failed to write to log file", e);
         }
     }
 }
