@@ -6,19 +6,19 @@ plugins {
 android {
     namespace "com.AfamObioha.kaminari_app"
     compileSdk 34
-
+    
     defaultConfig {
         applicationId "com.AfamObioha.kaminari_app"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1
         versionName "1.0"
-
+        
         ndk {
             abiFilters "arm64-v8a"
         }
     }
-
+    
     buildTypes {
         debug {
             shrinkResources false
@@ -29,32 +29,56 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
-
+    
     kotlinOptions {
         jvmTarget = "17"
     }
-
+    
     lint {
         abortOnError false
     }
-
+    
     sourceSets {
         main {
             java.srcDirs += 'src/main/java'
             assets.srcDirs += ['src/main/assets']
-            jniLibs.srcDirs = ['src/main/jniLibs', 'src/main/libs', 'src/main/arm64-v8a']
+            // Point to the renamed libraries directory
+            jniLibs.srcDirs = ['src/main/jniLibs_renamed']
         }
     }
-
+    
     packagingOptions {
-        jniLibs.useLegacyPackaging = true  // ✅ Ensures native libraries are properly extracted
-        pickFirst '**/*.so'  // ✅ Prevent conflicts when packaging
-        doNotStrip '**/*.so' // ✅ Prevent stripping of Qt native libraries
+        // Critical: Force extraction of native libraries
+        jniLibs.useLegacyPackaging = true
+        
+        // Don't strip libraries
+        doNotStrip '**/*.so'
+        
+        // Prevent conflicts when packaging
+        pickFirst '**/*.so'
+        
+        // Remove any jni excludes that might exist
+        resources {
+            excludes -= ['**/*.so']
+        }
+    }
+    
+    // Disable APK splitting for all dimensions
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            enableSplit = false
+        }
+        abi {
+            enableSplit = false
+        }
     }
 }
 
@@ -63,15 +87,11 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.24"
-
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-
-    // ✅ Ensure Qt6Android.jar is included properly
+    
+    // Qt JAR files
+    implementation fileTree(dir: 'src/main/assets', include: ['*.jar'])
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation files('src/main/assets/Qt6Android.jar')
-
-    // ✅ Extract Qt6Android.jar before running
-    runtimeOnly files('src/main/assets/Qt6Android.jar')
 }

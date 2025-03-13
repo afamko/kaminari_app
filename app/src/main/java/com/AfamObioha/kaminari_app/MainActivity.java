@@ -3,9 +3,10 @@ package com.AfamObioha.kaminari_app;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 import java.io.File;
-import java.lang.System;
-
+import java.util.ArrayList;
+import java.util.List;
 import org.qtproject.qt.android.QtNative;
 
 public class MainActivity extends Activity {
@@ -15,49 +16,112 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Debug logging
         Log.d(TAG, "📂 Application Context: " + getApplicationContext());
         Log.d(TAG, "📂 Native Library Path: " + getApplicationInfo().nativeLibraryDir);
-        Log.d(TAG, "📂 Source APK Path: " + getApplicationInfo().sourceDir);
-        Log.d(TAG, "📂 Data Directory: " + getApplicationInfo().dataDir);
 
-        // ✅ Ensure Qt libraries are correctly loaded
-        loadQtLibraries();
+        // List files in native library directory
+        listFilesInDir(getApplicationInfo().nativeLibraryDir);
 
-        // 🚀 Start Qt Application
+        // Load Qt libraries in proper dependency order
+        boolean librariesLoaded = loadQtLibraries();
+        if (!librariesLoaded) {
+            Toast.makeText(this, "Failed to load Qt libraries. Check logs for details.", Toast.LENGTH_LONG).show();
+            finish();
+            return;
+        }
+
+        // Start Qt Application
         try {
             Log.d(TAG, "🚀 Starting Qt application...");
             QtNative.startApplication(getApplicationInfo().sourceDir, getApplicationInfo().dataDir);
             Log.d(TAG, "✅ Qt application started.");
-        } catch (Exception e) {
+        } catch (Throwable e) {
             Log.e(TAG, "❌ Failed to start Qt application", e);
+            Toast.makeText(this, "Failed to start Qt application: " + e.getMessage(), Toast.LENGTH_LONG).show();
+            finish();
         }
     }
 
-    private void loadQtLibraries() {
-        // ✅ Directly load libraries from nativeLibraryDir
-        String libPath = getApplicationInfo().nativeLibraryDir;
+    private void listFilesInDir(String dirPath) {
+        File dir = new File(dirPath);
+        Log.d(TAG, "📂 Listing files in: " + dirPath);
 
+        if (dir.exists() && dir.isDirectory()) {
+            File[] files = dir.listFiles();
+            if (files != null) {
+                for (File file : files) {
+                    Log.d(TAG, "📄 Found: " + file.getName());
+                }
+            } else {
+                Log.e(TAG, "❌ No files found in directory");
+            }
+        } else {
+            Log.e(TAG, "❌ Directory does not exist or is not a directory");
+        }
+    }
+
+    private boolean loadQtLibraries() {
+        List<String> failedLibs = new ArrayList<>();
+
+        // Libraries in correct dependency order with original arm64-v8a suffix
         String[] qtLibs = {
                 "c++_shared",
-                "Qt6Core",
-                "Qt6Gui",
-                "Qt6Widgets",
-                "Qt6Qml",
-                "Qt6Quick",
-                "Qt6Network",
-                "Qt6QuickTemplates2",
-                "Qt6QuickControls2Basic",
-                "Qt6QmlModels",
-                "Qt6QuickParticles"
+                "Qt6Core_arm64-v8a",
+                "Qt6Network_arm64-v8a",
+                "Qt6Gui_arm64-v8a",
+                "Qt6OpenGL_arm64-v8a",
+                "Qt6ShaderTools_arm64-v8a",
+                "Qt6Qml_arm64-v8a",
+                "Qt6QmlModels_arm64-v8a",
+                "Qt6QmlWorkerScript_arm64-v8a",
+                "Qt6Quick_arm64-v8a",
+                "Qt6QuickTemplates2_arm64-v8a",
+                "Qt6QuickControls2_arm64-v8a",
+                "Qt6QuickControls2Impl_arm64-v8a",
+                "Qt6QuickControls2BasicStyleImpl_arm64-v8a",
+                "Qt6QuickControls2Basic_arm64-v8a",
+                "Qt6QuickControls2MaterialStyleImpl_arm64-v8a",
+                "Qt6QuickControls2Material_arm64-v8a",
+                "Qt6QuickControls2FusionStyleImpl_arm64-v8a",
+                "Qt6QuickControls2Fusion_arm64-v8a",
+                "Qt6QuickControls2ImagineStyleImpl_arm64-v8a",
+                "Qt6QuickControls2Imagine_arm64-v8a",
+                "Qt6QuickControls2UniversalStyleImpl_arm64-v8a",
+                "Qt6QuickControls2Universal_arm64-v8a",
+                "Qt6Widgets_arm64-v8a",
+                "Qt6QuickParticles_arm64-v8a"
         };
 
+        // Try to load each library
         for (String lib : qtLibs) {
             try {
-                System.load(libPath + "/lib" + lib + ".so");
-                Log.d(TAG, "✅ Loaded " + lib);
+                if (lib.equals("c++_shared")) {
+                    System.loadLibrary(lib);
+                    Log.d(TAG, "✅ Successfully loaded: " + lib);
+                } else {
+                    String fullPath = getApplicationInfo().nativeLibraryDir + "/lib" + lib + ".so";
+                    File libFile = new File(fullPath);
+                    if (libFile.exists()) {
+                        Log.d(TAG, "🔄 Loading: " + fullPath);
+                        System.load(fullPath);
+                        Log.d(TAG, "✅ Successfully loaded: " + lib);
+                    } else {
+                        Log.e(TAG, "❌ Library file does not exist: " + fullPath);
+                        failedLibs.add(lib);
+                    }
+                }
             } catch (UnsatisfiedLinkError e) {
-                Log.e(TAG, "❌ Failed to load " + lib, e);
+                Log.e(TAG, "❌ Failed to load " + lib + ": " + e.getMessage());
+                failedLibs.add(lib);
             }
         }
+
+        if (!failedLibs.isEmpty()) {
+            Log.e(TAG, "❌ Failed to load these libraries: " + failedLibs);
+            return false;
+        }
+
+        return true;
     }
 }

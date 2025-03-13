@@ -11,10 +11,10 @@
 
     <application
         android:extractNativeLibs="true"
-        android:label="Kaminari App"
         android:allowBackup="true"
         android:debuggable="true"
         android:useEmbeddedDex="true"
+        android:label="Kaminari App"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
