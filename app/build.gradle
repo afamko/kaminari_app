@@ -47,8 +47,8 @@ android {
         main {
             java.srcDirs += 'src/main/java'
             assets.srcDirs += ['src/main/assets']
-            // Point to the renamed libraries directory
-            jniLibs.srcDirs = ['src/main/jniLibs_renamed']
+            // Point to the original libraries directory
+            jniLibs.srcDirs = ['src/main/jniLibs']
         }
     }
     

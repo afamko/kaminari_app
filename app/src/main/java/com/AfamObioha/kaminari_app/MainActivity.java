@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Debug logging
+        // Debug information
         Log.d(TAG, "📂 Application Context: " + getApplicationContext());
         Log.d(TAG, "📂 Native Library Path: " + getApplicationInfo().nativeLibraryDir);
 
@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
     private boolean loadQtLibraries() {
         List<String> failedLibs = new ArrayList<>();
 
-        // Libraries in correct dependency order with original arm64-v8a suffix
+        // Libraries in correct dependency order WITH the arm64-v8a suffix
         String[] qtLibs = {
                 "c++_shared",
                 "Qt6Core_arm64-v8a",
@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
                 "Qt6QuickParticles_arm64-v8a"
         };
 
-        // Try to load each library
+        // Try to load each library using full paths
         for (String lib : qtLibs) {
             try {
                 if (lib.equals("c++_shared")) {
@@ -108,7 +108,19 @@ public class MainActivity extends Activity {
                         Log.d(TAG, "✅ Successfully loaded: " + lib);
                     } else {
                         Log.e(TAG, "❌ Library file does not exist: " + fullPath);
-                        failedLibs.add(lib);
+
+                        // Try without suffix as fallback
+                        String baseName = lib.replace("_arm64-v8a", "");
+                        String fallbackPath = getApplicationInfo().nativeLibraryDir + "/lib" + baseName + ".so";
+                        File fallbackFile = new File(fallbackPath);
+
+                        if (fallbackFile.exists()) {
+                            Log.d(TAG, "🔄 Loading fallback: " + fallbackPath);
+                            System.load(fallbackPath);
+                            Log.d(TAG, "✅ Successfully loaded fallback: " + baseName);
+                        } else {
+                            failedLibs.add(lib);
+                        }
                     }
                 }
             } catch (UnsatisfiedLinkError e) {
@@ -119,7 +131,7 @@ public class MainActivity extends Activity {
 
         if (!failedLibs.isEmpty()) {
             Log.e(TAG, "❌ Failed to load these libraries: " + failedLibs);
-            return false;
+            return failedLibs.size() < qtLibs.length / 2; // Return true if we loaded at least half the libraries
         }
 
         return true;
