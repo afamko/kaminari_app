@@ -2,6 +2,7 @@ package com.AfamObioha.kaminari_app;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
 import java.io.File;
@@ -31,9 +32,30 @@ public class MainActivity extends Activity {
             return;
         }
 
-        // Start Qt Application
+        // Add a slight delay before starting Qt to ensure all libraries are properly
+        // initialized
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startQtApplication();
+            }
+        }, 500); // 500ms delay
+    }
+
+    private void startQtApplication() {
         try {
             Log.d(TAG, "🚀 Starting Qt application...");
+
+            // Try to load the app's native library if it exists
+            try {
+                String appName = "kaminari_app"; // Your app's native library name without "lib" prefix or ".so" suffix
+                System.loadLibrary(appName);
+                Log.d(TAG, "✅ Successfully loaded application library: " + appName);
+            } catch (UnsatisfiedLinkError e) {
+                Log.e(TAG, "⚠️ Failed to load application library, continuing anyway: " + e.getMessage());
+            }
+
+            // Start Qt application
             QtNative.startApplication(getApplicationInfo().sourceDir, getApplicationInfo().dataDir);
             Log.d(TAG, "✅ Qt application started.");
         } catch (Throwable e) {
@@ -64,9 +86,17 @@ public class MainActivity extends Activity {
     private boolean loadQtLibraries() {
         List<String> failedLibs = new ArrayList<>();
 
+        try {
+            // Load c++ shared library first
+            System.loadLibrary("c++_shared");
+            Log.d(TAG, "✅ Successfully loaded: c++_shared");
+        } catch (UnsatisfiedLinkError e) {
+            Log.e(TAG, "❌ Failed to load c++_shared: " + e.getMessage());
+            failedLibs.add("c++_shared");
+        }
+
         // Libraries in correct dependency order WITH the arm64-v8a suffix
         String[] qtLibs = {
-                "c++_shared",
                 "Qt6Core_arm64-v8a",
                 "Qt6Network_arm64-v8a",
                 "Qt6Gui_arm64-v8a",
@@ -90,38 +120,24 @@ public class MainActivity extends Activity {
                 "Qt6QuickControls2UniversalStyleImpl_arm64-v8a",
                 "Qt6QuickControls2Universal_arm64-v8a",
                 "Qt6Widgets_arm64-v8a",
-                "Qt6QuickParticles_arm64-v8a"
+                "Qt6QuickParticles_arm64-v8a",
+                // Try to load "QtAndroidPlugin" if it exists - may be needed for
+                // QtNative.startQtAndroidPlugin
+                "QtAndroidPlugin_arm64-v8a"
         };
 
         // Try to load each library using full paths
         for (String lib : qtLibs) {
             try {
-                if (lib.equals("c++_shared")) {
-                    System.loadLibrary(lib);
+                String fullPath = getApplicationInfo().nativeLibraryDir + "/lib" + lib + ".so";
+                File libFile = new File(fullPath);
+                if (libFile.exists()) {
+                    Log.d(TAG, "🔄 Loading: " + fullPath);
+                    System.load(fullPath);
                     Log.d(TAG, "✅ Successfully loaded: " + lib);
                 } else {
-                    String fullPath = getApplicationInfo().nativeLibraryDir + "/lib" + lib + ".so";
-                    File libFile = new File(fullPath);
-                    if (libFile.exists()) {
-                        Log.d(TAG, "🔄 Loading: " + fullPath);
-                        System.load(fullPath);
-                        Log.d(TAG, "✅ Successfully loaded: " + lib);
-                    } else {
-                        Log.e(TAG, "❌ Library file does not exist: " + fullPath);
-
-                        // Try without suffix as fallback
-                        String baseName = lib.replace("_arm64-v8a", "");
-                        String fallbackPath = getApplicationInfo().nativeLibraryDir + "/lib" + baseName + ".so";
-                        File fallbackFile = new File(fallbackPath);
-
-                        if (fallbackFile.exists()) {
-                            Log.d(TAG, "🔄 Loading fallback: " + fallbackPath);
-                            System.load(fallbackPath);
-                            Log.d(TAG, "✅ Successfully loaded fallback: " + baseName);
-                        } else {
-                            failedLibs.add(lib);
-                        }
-                    }
+                    Log.e(TAG, "❌ Library file does not exist: " + fullPath);
+                    failedLibs.add(lib);
                 }
             } catch (UnsatisfiedLinkError e) {
                 Log.e(TAG, "❌ Failed to load " + lib + ": " + e.getMessage());
@@ -129,9 +145,35 @@ public class MainActivity extends Activity {
             }
         }
 
+        // Look for additional Qt libraries in the lib directory
+        try {
+            File libDir = new File(getApplicationInfo().nativeLibraryDir);
+            if (libDir.exists() && libDir.isDirectory()) {
+                File[] files = libDir.listFiles();
+                if (files != null) {
+                    for (File file : files) {
+                        String name = file.getName();
+                        // Try to load any Qt-related libraries we might have missed
+                        if (name.startsWith("libQt") && name.endsWith(".so") && !name.contains("_arm64-v8a")) {
+                            try {
+                                Log.d(TAG, "🔄 Loading additional Qt library: " + file.getAbsolutePath());
+                                System.load(file.getAbsolutePath());
+                                Log.d(TAG, "✅ Successfully loaded additional: " + name);
+                            } catch (UnsatisfiedLinkError e) {
+                                Log.e(TAG, "❌ Failed to load additional: " + name + ": " + e.getMessage());
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (Exception e) {
+            Log.e(TAG, "❌ Error while looking for additional libraries: " + e.getMessage());
+        }
+
         if (!failedLibs.isEmpty()) {
             Log.e(TAG, "❌ Failed to load these libraries: " + failedLibs);
-            return failedLibs.size() < qtLibs.length / 2; // Return true if we loaded at least half the libraries
+            // Allow continuing even with some failures
+            return failedLibs.size() < qtLibs.length / 2;
         }
 
         return true;
