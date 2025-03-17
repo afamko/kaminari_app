@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-// Import QtActivityDelegate (correct package, no bindings!)
+// Correct QtActivityDelegate import (no bindings!)
 import org.qtproject.qt.android.QtActivityDelegate;
 
 public class MainActivity extends Activity {
@@ -55,7 +56,7 @@ public class MainActivity extends Activity {
         try {
             Log.d(TAG, "🚀 Preparing to start Qt application...");
 
-            // Load native app library (optional)
+            // Load native library
             try {
                 System.loadLibrary("kaminari_app");
                 Log.d(TAG, "✅ Loaded native lib: kaminari_app");
@@ -63,14 +64,10 @@ public class MainActivity extends Activity {
                 Log.e(TAG, "⚠️ App lib not found: " + e.getMessage());
             }
 
-            // Log and start QtActivityDelegate
-            Log.d(TAG, "📢 Calling QtActivityDelegate.startApplication(...)");
-            Toast.makeText(this, "Starting Qt UI...", Toast.LENGTH_SHORT).show();
-
-            // Correct static method call with args
-            QtActivityDelegate.startApplication(this,
-                    getApplicationInfo().sourceDir,
-                    getApplicationInfo().dataDir);
+            // Create instance of QtActivityDelegate and start app
+            Log.d(TAG, "📢 Instantiating QtActivityDelegate...");
+            QtActivityDelegate delegate = new QtActivityDelegate(); // ← Must instantiate
+            delegate.startApplication(); // ← Correct instance method call
 
             Log.d(TAG, "✅ QtActivityDelegate.startApplication() called.");
             Toast.makeText(this, "QtApplication started!", Toast.LENGTH_SHORT).show();
