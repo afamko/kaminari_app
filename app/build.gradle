@@ -6,21 +6,20 @@ plugins {
 android {
     namespace "com.AfamObioha.kaminari_app"
     compileSdk 34
-    
+
     defaultConfig {
         applicationId "com.AfamObioha.kaminari_app"
         minSdkVersion 21
         targetSdkVersion 34
         versionCode 1
         versionName "1.0"
-        
+
         ndk {
             abiFilters "arm64-v8a"
         }
     }
-    
+
     buildTypes {
-        
         debug {
             shrinkResources false
             minifyEnabled false
@@ -30,49 +29,48 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
-    
+
     kotlinOptions {
         jvmTarget = "17"
     }
-    
+
     lint {
         abortOnError false
         checkReleaseBuilds false
     }
-    
+
     sourceSets {
         main {
             java.srcDirs = ['src/main/java']
             assets.srcDirs = ['src/main/assets']
             jniLibs.srcDirs = ['src/main/jniLibs']
+            // 'libs/' directory is included automatically for JARs
         }
     }
-    
+
     packagingOptions {
-        // Force legacy packaging for native libraries extraction
+        // Ensure native libraries are extracted
         jniLibs.useLegacyPackaging = true
-        
-        // Don't strip debug symbols from libraries
+
+        // Retain debug symbols
         jniLibs.keepDebugSymbols += ['**/*.so']
-        
-        // Don't strip libraries
+
+        // Prevent stripping
         doNotStrip '**/*.so'
-        
-        // Resolve duplicate files by taking the first one
+
+        // Resolve any .so conflicts
         pickFirst '**/*.so'
-        
-        // Make sure no JNI files are excluded
+
         resources {
             excludes -= ['**/*.so']
         }
     }
-    
-    // Disable APK splitting for all dimensions
+
     bundle {
         language {
             enableSplit = false
@@ -94,8 +92,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    
-    // Qt JAR files
-    implementation fileTree(dir: 'src/main/assets', include: ['*.jar'])
+
+    // ✅ Load all JAR files from libs/ – this includes Qt6Android.jar
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // ❌ DO NOT INCLUDE Qt6Android.jar again — avoids duplicate class error
 }

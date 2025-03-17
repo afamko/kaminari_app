@@ -2,24 +2,32 @@
 #include <QApplication>
 #include <QDebug>
 #include <QtGlobal>
+#include <jni.h>
 
-int main(int argc, char *argv[])
+int runMain(int argc, char *argv[])
 {
-
     qInfo() << "Qt version:" << QT_VERSION_STR;
     QApplication app(argc, argv);
 
     MainWindow w;
     w.show();
 
-    // Apply stylesheet to the main window for admin bar and other widgets
     QString styleSheet = "QMainWindow { "
-                         "background-color: rgb(239, 239, 239); " // Main window background
-                         "} "
-                         "QLabel { "
-                         "color: rgb(0, 0, 0); " // Text color for labels
-                         "}";
+                         "background-color: rgb(239, 239, 239); "
+                         "} QLabel { color: rgb(0, 0, 0); }";
     w.setStyleSheet(styleSheet);
 
     return app.exec();
+}
+
+extern "C" JNIEXPORT jint JNICALL
+Java_org_qtproject_qt_android_QtActivityDelegate_startQtApp(JNIEnv *env, jclass clazz, jobject context)
+{
+    Q_UNUSED(env);
+    Q_UNUSED(clazz);
+    Q_UNUSED(context);
+
+    int argc = 1;
+    char *argv[] = {strdup("kaminari_app")};
+    return runMain(argc, argv);
 }
