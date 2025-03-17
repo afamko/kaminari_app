@@ -20,6 +20,7 @@ android {
     }
     
     buildTypes {
+        
         debug {
             shrinkResources false
             minifyEnabled false
@@ -41,28 +42,31 @@ android {
     
     lint {
         abortOnError false
+        checkReleaseBuilds false
     }
     
     sourceSets {
         main {
-            java.srcDirs += 'src/main/java'
-            assets.srcDirs += ['src/main/assets']
-            // Point to the original libraries directory
+            java.srcDirs = ['src/main/java']
+            assets.srcDirs = ['src/main/assets']
             jniLibs.srcDirs = ['src/main/jniLibs']
         }
     }
     
     packagingOptions {
-        // Critical: Force extraction of native libraries
+        // Force legacy packaging for native libraries extraction
         jniLibs.useLegacyPackaging = true
+        
+        // Don't strip debug symbols from libraries
+        jniLibs.keepDebugSymbols += ['**/*.so']
         
         // Don't strip libraries
         doNotStrip '**/*.so'
         
-        // Prevent conflicts when packaging
+        // Resolve duplicate files by taking the first one
         pickFirst '**/*.so'
         
-        // Remove any jni excludes that might exist
+        // Make sure no JNI files are excluded
         resources {
             excludes -= ['**/*.so']
         }
