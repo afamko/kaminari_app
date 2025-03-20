@@ -36,8 +36,8 @@ set(PROJECT_SOURCES
 # Process the .qrc resource file for Android
 qt6_add_resources(PROJECT_SOURCES myresources.qrc)
 
-# Define the executable
-add_executable(kaminari_app ${PROJECT_SOURCES})
+# Define shared library instead of executable
+add_library(kaminari_app SHARED ${PROJECT_SOURCES})
 
 # Link against necessary Qt libraries
 target_link_libraries(kaminari_app PRIVATE
@@ -52,8 +52,11 @@ target_link_libraries(kaminari_app PRIVATE
     Qt6::OpenGL
 )
 
-# Ensure Qt is deployed properly on Android
+# Deploy Qt to Android
 set_property(TARGET kaminari_app PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_SOURCE_DIR}/android")
 
-# ✅ Explicitly set JNI library path to match jniLibs
+# Install the .so file correctly
+install(TARGETS kaminari_app LIBRARY DESTINATION lib)
+
+# Set JNI output directory
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/app/src/main/jniLibs/${ANDROID_ABI}")

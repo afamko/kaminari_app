@@ -377,7 +377,7 @@
 #define __UINT_LEAST8_MAX__ 255
 #define __UINT_LEAST8_TYPE__ unsigned char
 #define __USER_LABEL_PREFIX__ 
-#define __VERSION__ "Android (8490178, based on r450784d) Clang 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+#define __VERSION__ "Android (9352603, based on r450784d1) Clang 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
 #define __WCHAR_MAX__ 4294967295U
 #define __WCHAR_TYPE__ unsigned int
 #define __WCHAR_UNSIGNED__ 1
@@ -391,8 +391,8 @@
 #define __clang_literal_encoding__ "UTF-8"
 #define __clang_major__ 14
 #define __clang_minor__ 0
-#define __clang_patchlevel__ 6
-#define __clang_version__ "14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
+#define __clang_patchlevel__ 7
+#define __clang_version__ "14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)"
 #define __clang_wide_literal_encoding__ "UTF-32"
 #define __cplusplus 201703L
 #define __cpp_aggregate_bases 201603L
@@ -452,5 +452,6 @@
 #define __private_extern__ extern
 #define __unix 1
 #define __unix__ 1
+#define kaminari_app_EXPORTS 1
 #define linux 1
 #define unix 1

@@ -3,5 +3,9 @@
 /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/kaminari_app.dir
 /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/edit_cache.dir
 /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/rebuild_cache.dir
+/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/list_install_components.dir
+/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/install.dir
+/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/install/local.dir
+/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/install/strip.dir
 /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/kaminari_app_autogen_timestamp_deps.dir
 /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/kaminari_app_autogen.dir
