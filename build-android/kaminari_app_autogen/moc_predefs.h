@@ -1,4 +1,6 @@
 #define ABI_ID "ELF"
+#define JNIEXPORT __attribute__((visibility("default")))
+#define JNI_EXPORT __attribute__((visibility("default")))
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
 #define QT_NETWORK_LIB 1

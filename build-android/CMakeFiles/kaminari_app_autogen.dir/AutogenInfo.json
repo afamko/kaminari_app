@@ -826,6 +826,8 @@
 	"MOC_COMPILATION_FILE" : "/Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
+		"JNIEXPORT=__attribute__((visibility(\"default\")))",
+		"JNI_EXPORT=__attribute__((visibility(\"default\")))",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
@@ -905,6 +907,7 @@
 		[ "/Users/AfamObioha/kaminari_app/NewFolderDialog.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/NewItemDialog.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/SketchPage.cpp", "MU", null ],
+		[ "/Users/AfamObioha/kaminari_app/jni_bridge.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/main.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/mainwindow.cpp", "MU", null ]
 	],

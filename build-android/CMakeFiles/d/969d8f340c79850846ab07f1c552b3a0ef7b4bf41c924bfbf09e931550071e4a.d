@@ -755,6 +755,7 @@ kaminari_app_autogen/timestamp: \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   kaminari_app_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_app/jni_bridge.cpp \
   /Users/AfamObioha/kaminari_app/main.cpp \
   /Users/AfamObioha/kaminari_app/mainwindow.cpp \
   /Users/AfamObioha/kaminari_app/mainwindow.h \

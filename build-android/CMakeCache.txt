@@ -432,10 +432,13 @@ kaminari_app_BINARY_DIR:STATIC=/Users/AfamObioha/kaminari_app/build-android
 kaminari_app_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-kaminari_app_LIB_DEPENDS:STATIC=general;Qt6::Core;general;Qt6::Gui;general;Qt6::Widgets;general;Qt6::Qml;general;Qt6::Quick;general;Qt6::QuickControls2;general;Qt6::QuickTemplates2;general;Qt6::Network;general;Qt6::OpenGL;
+kaminari_app_LIB_DEPENDS:STATIC=general;Qt6::Core;general;Qt6::Gui;general;Qt6::Widgets;general;Qt6::Qml;general;Qt6::Quick;general;Qt6::QuickControls2;general;Qt6::QuickTemplates2;general;Qt6::Network;general;Qt6::OpenGL;general;/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/30/liblog.so;
 
 //Value Computed by CMake
 kaminari_app_SOURCE_DIR:STATIC=/Users/AfamObioha/kaminari_app
+
+//Path to a library.
+log-lib:FILEPATH=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/30/liblog.so
 
 
 ########################

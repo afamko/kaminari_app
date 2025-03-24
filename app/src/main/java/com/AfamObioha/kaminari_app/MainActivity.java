@@ -16,13 +16,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import org.qtproject.qt.android.QtNative;
-import org.qtproject.qt.android.QtActivityDelegate;
-
 public class MainActivity extends Activity {
     private static final String TAG = "KAMINARI_APP";
 
-    // JNI method to directly call the C++ main function
+    // Direct JNI calls to C++
     private static native int startKaminariApp(String[] args);
 
     @Override
@@ -36,7 +33,7 @@ public class MainActivity extends Activity {
 
             TextView textView = new TextView(this);
             textView.setPadding(30, 30, 30, 30);
-            textView.setText("Kaminari App - Qt Libraries Status\n\nLoading libraries...");
+            textView.setText("Kaminari App - Loading...\n\nPlease wait while the C++ application initializes.");
             setContentView(textView);
 
             Log.d(TAG, "📂 Native Library Path: " + getApplicationInfo().nativeLibraryDir);
@@ -48,27 +45,27 @@ public class MainActivity extends Activity {
                 String message = "✅ Qt libraries loaded successfully!";
                 Log.d(TAG, message);
                 fileLog(message);
-                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+                Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
                 textView.append("\n\n" + message);
 
-                File dir = new File(getApplicationInfo().nativeLibraryDir);
-                File[] files = dir.listFiles();
-                if (files != null) {
-                    for (File file : files) {
-                        if (file.getName().contains("Qt6") || file.getName().contains("c++_shared")) {
-                            textView.append("\n• " + file.getName());
-                        }
-                    }
+                // Load your main application library last
+                try {
+                    Log.d(TAG, "🔄 Loading kaminari_app.so library");
+                    fileLog("Loading kaminari_app.so library");
+                    System.loadLibrary("kaminari_app");
+                    Log.d(TAG, "✅ Loaded native lib: kaminari_app");
+                    fileLog("Successfully loaded native lib: kaminari_app");
+                } catch (UnsatisfiedLinkError e) {
+                    Log.e(TAG, "⚠️ App lib not found: " + e.getMessage(), e);
+                    fileLog("App lib not found: " + e.getMessage());
+                    textView.append("\n❌ App lib not found: " + e.getMessage());
+                    return;
                 }
 
-                textView.append("\n\n🚀 Starting Qt application...");
-                // Try the original approach first
-                startQtApplication(textView);
-
-                // After the original approach (whether it succeeds or fails), try the direct
-                // JNI approach
-                textView.append("\n\n🔥 Trying direct C++ main() call...");
-                tryDirectCppCall(textView);
+                // IMPORTANT: Skip the QtActivityDelegate approach entirely
+                // and directly call the C++ code through JNI
+                textView.append("\n\n🔥 Starting C++ application directly...");
+                directStartCppApp(textView);
             } else {
                 String message = "❌ Failed to load Qt libraries";
                 Log.e(TAG, message);
@@ -84,98 +81,34 @@ public class MainActivity extends Activity {
         }
     }
 
-    private void tryDirectCppCall(TextView textView) {
+    private void directStartCppApp(TextView textView) {
         try {
-            Log.d(TAG, "🔥 Attempting direct call to C++ main() function...");
-            fileLog("Attempting direct call to C++ main() function");
+            Log.d(TAG, "🔥 Starting C++ application directly through JNI");
+            fileLog("Starting C++ application directly through JNI");
 
+            // Create an array with a single argument - our app name
             String[] args = new String[] { "kaminari_app" };
+
+            // Directly call the C++ main function
+            Log.d(TAG, "🔄 Calling startKaminariApp with " + args.length + " arguments");
+            fileLog("Calling C++ main function directly");
+
             int result = startKaminariApp(args);
 
-            String message = "✅ Direct C++ main() call completed with result: " + result;
+            String message = "✅ C++ application started with result: " + result;
             Log.d(TAG, message);
             fileLog(message);
             textView.append("\n" + message);
         } catch (UnsatisfiedLinkError e) {
-            String message = "❌ Direct C++ main() call failed: " + e.getMessage();
+            String message = "❌ Failed to call C++ application: " + e.getMessage();
             Log.e(TAG, message, e);
             fileLog(message);
             textView.append("\n" + message);
         } catch (Exception e) {
-            String message = "❌ Exception during direct C++ call: " + e.getMessage();
+            String message = "❌ Exception during C++ application start: " + e.getMessage();
             Log.e(TAG, message, e);
             fileLog(message);
             textView.append("\n" + message);
-        }
-    }
-
-    private void startQtApplication(TextView textView) {
-        try {
-            Log.d(TAG, "🚀 Preparing to start Qt application...");
-            fileLog("Preparing to start Qt application");
-
-            try {
-                Log.d(TAG, "🔄 Loading kaminari_app.so library");
-                fileLog("Loading kaminari_app.so library");
-                System.loadLibrary("kaminari_app");
-                Log.d(TAG, "✅ Loaded native lib: kaminari_app");
-                fileLog("Successfully loaded native lib: kaminari_app");
-            } catch (UnsatisfiedLinkError e) {
-                Log.e(TAG, "⚠️ App lib not found: " + e.getMessage(), e);
-                fileLog("App lib not found: " + e.getMessage());
-                textView.append("\n❌ App lib not found: " + e.getMessage());
-                return;
-            }
-
-            try {
-                Log.d(TAG, "📢 First approach: Using QtActivityDelegate");
-                fileLog("Attempting to start Qt with QtActivityDelegate");
-                QtActivityDelegate delegate = new QtActivityDelegate();
-
-                Bundle bundle = new Bundle();
-                bundle.putString("main_lib", "kaminari_app");
-
-                Log.d(TAG, "🔄 Calling delegate.loadApplication()");
-                fileLog("Calling delegate.loadApplication()");
-                delegate.loadApplication(this, getClassLoader(), bundle);
-                Log.d(TAG, "✅ delegate.loadApplication() returned successfully");
-                fileLog("delegate.loadApplication() returned successfully");
-            } catch (Exception e) {
-                Log.e(TAG, "❌ QtActivityDelegate approach failed: " + e.getMessage(), e);
-                fileLog("QtActivityDelegate approach failed: " + e.getMessage());
-
-                // Fall back to QtNative approach
-                try {
-                    Log.d(TAG, "📢 Second approach: Using QtNative directly");
-                    fileLog("Attempting to start Qt with QtNative directly");
-
-                    Log.d(TAG, "🔄 Calling QtNative.startApplication()");
-                    fileLog("Calling QtNative.startApplication()");
-                    QtNative.startApplication(getApplicationInfo().sourceDir, getApplicationInfo().dataDir);
-                    Log.d(TAG, "✅ QtNative.startApplication() returned successfully");
-                    fileLog("QtNative.startApplication() returned successfully");
-                } catch (Exception e2) {
-                    Log.e(TAG, "❌ QtNative approach also failed: " + e2.getMessage(), e2);
-                    fileLog("QtNative approach also failed: " + e2.getMessage());
-                    textView.append("\n❌ Both Qt initialization approaches failed.");
-                    throw e2; // Re-throw to show in the UI
-                }
-            }
-
-            String message = "✅ QtApplication started successfully!";
-            Log.d(TAG, message);
-            fileLog(message);
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-            textView.append("\n\n" + message);
-
-            // Ensure any buffered logs are written
-            System.out.flush();
-
-        } catch (Throwable e) {
-            Log.e(TAG, "❌ Qt UI start failed: " + e.getMessage(), e);
-            fileLog("Qt UI start failed: " + e.getMessage());
-            textView.append("\n❌ Qt UI start failed: " + e.getMessage());
-            Toast.makeText(this, "Qt UI failed: " + e.getMessage(), Toast.LENGTH_LONG).show();
         }
     }
 

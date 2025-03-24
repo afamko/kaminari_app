@@ -24,6 +24,13 @@
             android:name=".MainActivity"
             android:label="Kaminari App"
             android:exported="true">
+            <!-- Add Qt metadata -->
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="kaminari_app" />
+            <meta-data
+                android:name="android.app.extract_android_style"
+                android:value="minimal" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

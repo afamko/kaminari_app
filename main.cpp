@@ -2,118 +2,83 @@
 #include <QApplication>
 #include <QDebug>
 #include <QtGlobal>
-#include <android/log.h>
 #include <QLabel>
 #include <QVBoxLayout>
 #include <QPushButton>
-#include <jni.h>
+#include <QWidget>
+#include <android/log.h>
 
+// This is the main function that will be called from the JNI bridge
+// No JNI code in this file for cleaner separation
+extern "C" int qt_main(int argc, char *argv[])
+{
 // Helper macro for Android logging
 #define ANDROID_LOG(priority, tag, ...) \
     __android_log_print(ANDROID_LOG_##priority, tag, __VA_ARGS__)
 
-// Forward declaration of main function for JNI
-extern "C" JNIEXPORT jint JNICALL
-Java_com_AfamObioha_kaminari_1app_MainActivity_startKaminariApp(
-    JNIEnv *env, jobject /* thiz */, jobjectArray jargs);
+    // Start logging all operations for diagnostic purposes
+    ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 qt_main() function started!");
 
-int main(int argc, char *argv[])
-{
-    // Use both Qt logging and Android direct logging for maximum visibility
-    qInfo() << "🔥 Qt C++ main() triggered!";
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "🔥 Qt C++ main() triggered!");
-
-    qInfo() << "✅ Entered main";
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "✅ Entered main");
-
-    qInfo() << "Qt version:" << QT_VERSION_STR;
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "Qt version: %s", QT_VERSION_STR);
-
-    // Create QApplication
-    QApplication app(argc, argv);
-    qInfo() << "✅ QApplication created";
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "✅ QApplication created");
-
-    // Create main window
-    MainWindow w;
-    qInfo() << "✅ MainWindow constructed";
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "✅ MainWindow constructed");
-
-    // Add a very visible control to ensure we can see something
-    QLabel *testLabel = new QLabel("📱 KAMINARI APP RUNNING IN C++! 📱");
-    testLabel->setStyleSheet("font-size: 24px; color: red; background-color: yellow;");
-    testLabel->setAlignment(Qt::AlignCenter);
-
-    QPushButton *testButton = new QPushButton("Click Me - I'm from C++!");
-    testButton->setStyleSheet("font-size: 18px; background-color: #4CAF50; color: white; padding: 10px;");
-    QObject::connect(testButton, &QPushButton::clicked, []()
-                     { ANDROID_LOG(INFO, "KAMINARI_CPP", "🎯 Button clicked!"); });
-
-    QVBoxLayout *layout = new QVBoxLayout();
-    layout->addWidget(testLabel);
-    layout->addWidget(testButton);
-
-    QWidget *centralWidget = new QWidget();
-    centralWidget->setLayout(layout);
-    w.setCentralWidget(centralWidget);
-
-    // Set main window styles
-    w.setStyleSheet("QMainWindow { background-color: rgb(239, 239, 239); } "
-                    "QLabel { color: rgb(0, 0, 0); }");
-
-    // Show the window
-    w.show();
-    w.resize(800, 600); // Make sure it's big enough to be visible
-    qInfo() << "✅ MainWindow shown";
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "✅ MainWindow shown");
-
-    qInfo() << "✅ Style applied";
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "✅ Style applied");
-
-    // Enter event loop
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "⏳ Starting app.exec()");
-    int execResult = app.exec();
-
-    qInfo() << "✅ app.exec() returned:" << execResult;
-    ANDROID_LOG(INFO, "KAMINARI_CPP", "✅ app.exec() returned: %d", execResult);
-
-    return execResult;
-}
-
-// JNI Bridge to call our main function directly from Java
-extern "C" JNIEXPORT jint JNICALL
-Java_com_AfamObioha_kaminari_1app_MainActivity_startKaminariApp(
-    JNIEnv *env, jobject /* thiz */, jobjectArray jargs)
-{
-
-    ANDROID_LOG(INFO, "KAMINARI_JNI", "🔥 JNI Bridge called directly!");
-
-    // Convert Java string array to C++ argc/argv
-    int argc = env->GetArrayLength(jargs);
-    char **argv = new char *[argc + 1]; // +1 for null terminator
-
-    for (int i = 0; i < argc; i++)
+    try
     {
-        jstring jstr = (jstring)env->GetObjectArrayElement(jargs, i);
-        const char *cstr = env->GetStringUTFChars(jstr, nullptr);
-        argv[i] = strdup(cstr); // Need to use strdup to copy string
-        env->ReleaseStringUTFChars(jstr, cstr);
+        // Create QApplication
+        QApplication app(argc, argv);
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 QApplication created successfully");
+
+        // SIMPLE UI TEST: Create a basic window with bright colors to confirm UI rendering works
+        QWidget testWidget;
+        testWidget.setWindowTitle("Kaminari Test Window");
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Test widget created");
+
+        QVBoxLayout *layout = new QVBoxLayout(&testWidget);
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Layout created");
+
+        QLabel *testLabel = new QLabel("⚠️ TEST WINDOW - KAMINARI APP ⚠️");
+        testLabel->setStyleSheet(
+            "font-size: 24px; "
+            "color: red; "
+            "background-color: yellow; "
+            "padding: 20px; "
+            "border: 5px solid black;");
+        testLabel->setAlignment(Qt::AlignCenter);
+        layout->addWidget(testLabel);
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Test label added");
+
+        QPushButton *testButton = new QPushButton("This is a test button");
+        testButton->setStyleSheet(
+            "font-size: 18px; "
+            "background-color: #4CAF50; "
+            "color: white; "
+            "padding: 15px; "
+            "min-height: 60px; "
+            "border-radius: 10px;");
+        QObject::connect(testButton, &QPushButton::clicked, []()
+                         { ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 TEST BUTTON CLICKED!"); });
+        layout->addWidget(testButton);
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Test button added");
+
+        testWidget.setMinimumSize(800, 600);
+        testWidget.resize(800, 600);
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Widget size set to 800x600");
+
+        testWidget.show();
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Widget shown");
+
+        // This is a critical step - exec() starts the event loop and shows the UI
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 Starting event loop with app.exec()");
+        int result = app.exec();
+        ANDROID_LOG(INFO, "KAMINARI_CPP", "🔵 app.exec() returned %d", result);
+
+        return result;
     }
-
-    // Null-terminate the argv array
-    argv[argc] = nullptr;
-
-    // Call main function directly
-    ANDROID_LOG(INFO, "KAMINARI_JNI", "🚀 Calling C++ main function directly...");
-    int result = main(argc, argv);
-    ANDROID_LOG(INFO, "KAMINARI_JNI", "✅ C++ main returned: %d", result);
-
-    // Clean up
-    for (int i = 0; i < argc; i++)
+    catch (const std::exception &e)
     {
-        free(argv[i]);
+        ANDROID_LOG(ERROR, "KAMINARI_CPP", "❌ Exception in Qt application: %s", e.what());
+        return -1;
     }
-    delete[] argv;
-
-    return result;
+    catch (...)
+    {
+        ANDROID_LOG(ERROR, "KAMINARI_CPP", "❌ Unknown exception in Qt application");
+        return -2;
+    }
 }
