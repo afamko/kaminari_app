@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <array name="qt_sources">
+        <item>https://download.qt.io/ministro/android/qt6/qt-6.6</item>
+    </array>
+
+    <array name="qt_libs">
+        <item>QtCore</item>
+        <item>QtGui</item>
+        <item>QtWidgets</item>
+    </array>
+
+    <array name="bundled_libs">
+        <!-- Add any additional libraries your app requires here -->
+    </array>
+
+    <array name="load_local_libs">
+        <!-- Add any local libraries your app needs to load -->
+    </array>
+</resources>

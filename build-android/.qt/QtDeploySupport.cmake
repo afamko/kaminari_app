@@ -56,7 +56,6 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
     "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
-    "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

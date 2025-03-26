@@ -1,17 +1,2 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT) // 🔥 Allow repositories in build.gradle
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-rootProject.name = "kaminari_app"
-include ':app'
+rootProject.name = 'kaminari_app'
+include ':android'

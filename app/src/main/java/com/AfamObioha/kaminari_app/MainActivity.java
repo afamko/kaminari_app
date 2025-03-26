@@ -19,8 +19,25 @@ import java.util.Locale;
 public class MainActivity extends Activity {
     private static final String TAG = "KAMINARI_APP";
 
+    // Static initialization block for library loading
+    static {
+        try {
+            System.loadLibrary("c++_shared");
+            Log.d(TAG, "✅ Static loader: Successfully loaded c++_shared");
+        } catch (UnsatisfiedLinkError e) {
+            Log.e(TAG, "❌ Static loader: Failed to load c++_shared: " + e.getMessage());
+        }
+
+        try {
+            System.loadLibrary("kaminari_app");
+            Log.d(TAG, "✅ Static loader: Successfully loaded kaminari_app");
+        } catch (UnsatisfiedLinkError e) {
+            Log.e(TAG, "❌ Static loader: Failed to load kaminari_app: " + e.getMessage());
+        }
+    }
+
     // Direct JNI calls to C++
-    private static native int startKaminariApp(String[] args);
+    private native int startKaminariApp(String[] args);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,20 +64,6 @@ public class MainActivity extends Activity {
                 fileLog(message);
                 Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
                 textView.append("\n\n" + message);
-
-                // Load your main application library last
-                try {
-                    Log.d(TAG, "🔄 Loading kaminari_app.so library");
-                    fileLog("Loading kaminari_app.so library");
-                    System.loadLibrary("kaminari_app");
-                    Log.d(TAG, "✅ Loaded native lib: kaminari_app");
-                    fileLog("Successfully loaded native lib: kaminari_app");
-                } catch (UnsatisfiedLinkError e) {
-                    Log.e(TAG, "⚠️ App lib not found: " + e.getMessage(), e);
-                    fileLog("App lib not found: " + e.getMessage());
-                    textView.append("\n❌ App lib not found: " + e.getMessage());
-                    return;
-                }
 
                 // IMPORTANT: Skip the QtActivityDelegate approach entirely
                 // and directly call the C++ code through JNI
@@ -137,17 +140,6 @@ public class MainActivity extends Activity {
     private boolean loadQtLibraries() {
         List<String> failedLibs = new ArrayList<>();
         List<String> successLibs = new ArrayList<>();
-
-        try {
-            System.loadLibrary("c++_shared");
-            Log.d(TAG, "✅ Loaded: c++_shared");
-            fileLog("Loaded: c++_shared");
-            successLibs.add("c++_shared");
-        } catch (UnsatisfiedLinkError e) {
-            Log.e(TAG, "❌ Failed to load c++_shared: " + e.getMessage(), e);
-            fileLog("Failed to load c++_shared: " + e.getMessage());
-            failedLibs.add("c++_shared");
-        }
 
         String[] qtLibs = {
                 "Qt6Core_arm64-v8a", "Qt6Network_arm64-v8a", "Qt6Gui_arm64-v8a",

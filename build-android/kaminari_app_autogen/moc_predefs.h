@@ -1,17 +1,7 @@
 #define ABI_ID "ELF"
-#define JNIEXPORT __attribute__((visibility("default")))
-#define JNI_EXPORT __attribute__((visibility("default")))
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
-#define QT_NETWORK_LIB 1
 #define QT_NO_DEBUG 1
-#define QT_OPENGL_LIB 1
-#define QT_QMLINTEGRATION_LIB 1
-#define QT_QMLMODELS_LIB 1
-#define QT_QML_LIB 1
-#define QT_QUICKCONTROLS2_LIB 1
-#define QT_QUICKTEMPLATES2_LIB 1
-#define QT_QUICK_LIB 1
 #define QT_WIDGETS_LIB 1
 #define SIZEOF_DPTR (sizeof(void*))
 #define _GNU_SOURCE 1
@@ -19,7 +9,7 @@
 #define __AARCH64EL__ 1
 #define __AARCH64_CMODEL_SMALL__ 1
 #define __ANDROID_API__ __ANDROID_MIN_SDK_VERSION__
-#define __ANDROID_MIN_SDK_VERSION__ 30
+#define __ANDROID_MIN_SDK_VERSION__ 29
 #define __ANDROID__ 1
 #define __ARM_64BIT_STATE 1
 #define __ARM_ACLE 200
