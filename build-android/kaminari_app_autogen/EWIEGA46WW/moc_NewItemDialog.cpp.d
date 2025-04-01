@@ -1,23 +1,80 @@
 /Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/EWIEGA46WW/moc_NewItemDialog.cpp: /Users/AfamObioha/kaminari_app/NewItemDialog.h \
   /Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/moc_predefs.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__bit_reference \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__config \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__debug \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__functional_base \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__node_handle \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__nullptr \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__split_buffer \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__string \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__threading_support \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__tree \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__tuple \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__undef_macros \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/algorithm \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/array \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/atomic \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/bit \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cctype \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/chrono \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/climits \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cmath \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstddef \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdint \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdio \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdlib \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstring \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ctime \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ctype.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cwchar \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cwctype \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/exception \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/functional \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/initializer_list \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/iosfwd \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/iterator \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/limits \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/limits.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/list \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/map \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/math.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/memory \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/new \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/numeric \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/optional \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ratio \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdbool.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdexcept \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string_view \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/tuple \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/type_traits \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/typeinfo \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/utility \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/variant \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/vector \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/version \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/wchar.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/wctype.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include/stdarg.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/errno.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/posix_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sigcontext.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/siginfo.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/signal.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sve_context.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/alloca.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/api-level.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_signal_inlines.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/versioning.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/siginfo.h \
@@ -25,79 +82,12 @@
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/signal.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/assert.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/ctype_inlines.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/mbstate_t.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/posix_limits.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/pthread_types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/seek_constants.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/signal_types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/strcasecmp.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/timespec.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wait.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wchar_limits.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wctype.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__bit_reference \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__debug \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__functional_base \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__node_handle \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__nullptr \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__split_buffer \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__string \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__threading_support \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tuple \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__undef_macros \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/algorithm \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/array \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/atomic \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/bit \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cctype \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/chrono \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/climits \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cmath \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstddef \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdint \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdio \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdlib \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstring \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ctime \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwchar \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwctype \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/exception \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/float.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/functional \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/initializer_list \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iterator \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/limits \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/list \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/map \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/new \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/numeric \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/optional \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ratio \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdbool.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stddef.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdexcept \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string_view \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/tuple \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/type_traits \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/typeinfo \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/utility \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/variant \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/vector \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/version \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/ctype.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/errno.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/features.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/limits.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/compiler.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/compiler_types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/errno.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/limits.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/posix_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/sched.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/signal.h \
@@ -105,18 +95,10 @@
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/wait.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/malloc.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/math.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/pthread.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sched.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/semaphore.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/signal.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdio.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdlib.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/string.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/strings.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/cdefs.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/select.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/time.h \
@@ -124,8 +106,6 @@
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/ucontext.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/user.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wchar.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wctype.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/xlocale.h \
   /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h \
   /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20memory.h \

@@ -355,6 +355,9 @@ Vulkan_INCLUDE_DIR:PATH=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/t
 //Path to a library.
 Vulkan_LIBRARY:FILEPATH=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libvulkan.so
 
+//Path to a library.
+android-lib:FILEPATH=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libandroid.so
+
 //Value Computed by CMake
 kaminari_app_BINARY_DIR:STATIC=/Users/AfamObioha/kaminari_app/build-android
 

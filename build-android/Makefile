@@ -277,6 +277,30 @@ SketchPage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kaminari_app.dir/build.make CMakeFiles/kaminari_app.dir/SketchPage.cpp.s
 .PHONY : SketchPage.cpp.s
 
+jni_bridge.o: jni_bridge.cpp.o
+.PHONY : jni_bridge.o
+
+# target to build an object file
+jni_bridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kaminari_app.dir/build.make CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o
+.PHONY : jni_bridge.cpp.o
+
+jni_bridge.i: jni_bridge.cpp.i
+.PHONY : jni_bridge.i
+
+# target to preprocess a source file
+jni_bridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kaminari_app.dir/build.make CMakeFiles/kaminari_app.dir/jni_bridge.cpp.i
+.PHONY : jni_bridge.cpp.i
+
+jni_bridge.s: jni_bridge.cpp.s
+.PHONY : jni_bridge.s
+
+# target to generate assembly for a file
+jni_bridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kaminari_app.dir/build.make CMakeFiles/kaminari_app.dir/jni_bridge.cpp.s
+.PHONY : jni_bridge.cpp.s
+
 kaminari_app_autogen/EWIEGA46WW/qrc_myresources.o: kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o
 .PHONY : kaminari_app_autogen/EWIEGA46WW/qrc_myresources.o
 
@@ -398,6 +422,9 @@ help:
 	@echo "... SketchPage.o"
 	@echo "... SketchPage.i"
 	@echo "... SketchPage.s"
+	@echo "... jni_bridge.o"
+	@echo "... jni_bridge.i"
+	@echo "... jni_bridge.s"
 	@echo "... kaminari_app_autogen/EWIEGA46WW/qrc_myresources.o"
 	@echo "... kaminari_app_autogen/EWIEGA46WW/qrc_myresources.i"
 	@echo "... kaminari_app_autogen/EWIEGA46WW/qrc_myresources.s"

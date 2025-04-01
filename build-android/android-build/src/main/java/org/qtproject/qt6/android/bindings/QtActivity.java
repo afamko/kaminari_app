@@ -49,6 +49,7 @@ public class QtActivity extends Activity
     private static final String NECESSITAS_API_LEVEL_KEY = "necessitas.api.level";
     private static final String EXTRACT_STYLE_KEY = "extract.android.style";
     private static final String PUBLIC_LIBRARIES_KEY = "public.libraries";
+    private static final String TAG = "KAMINARI_APP";
 
     /// Mandatory parameters
     private String m_mainLib;
@@ -82,6 +83,23 @@ public class QtActivity extends Activity
     private native void qtActivityOnWindowFocusChanged(boolean focused);
     private native void qtActivityOnConfigurationChanged(Configuration newConfig);
 
+    // Static initialization block to load core libraries
+    static {
+        try {
+            System.loadLibrary("c++_shared");
+            Log.d(TAG, "✅ Static loader: Successfully loaded c++_shared");
+        } catch (UnsatisfiedLinkError e) {
+            Log.e(TAG, "❌ Static loader: Failed to load c++_shared: " + e.getMessage());
+        }
+
+        try {
+            System.loadLibrary("kaminari_app");
+            Log.d(TAG, "✅ Static loader: Successfully loaded kaminari_app");
+        } catch (UnsatisfiedLinkError e) {
+            Log.e(TAG, "❌ Static loader: Failed to load kaminari_app: " + e.getMessage());
+        }
+    }
+
     public String APPLICATION_PARAMETERS_KEY(){
         return APPLICATION_PARAMETERS_KEY;
     }
@@ -106,8 +124,44 @@ public class QtActivity extends Activity
         return m_loaderClassName;
     }
 
+    private boolean loadQtLibraries() {
+        String[] qtLibs = {
+            "Qt6Core_arm64-v8a", "Qt6Network_arm64-v8a", "Qt6Gui_arm64-v8a",
+            "Qt6OpenGL_arm64-v8a", "Qt6ShaderTools_arm64-v8a", "Qt6Qml_arm64-v8a",
+            "Qt6QmlModels_arm64-v8a", "Qt6QmlWorkerScript_arm64-v8a", "Qt6Quick_arm64-v8a",
+            "Qt6QuickTemplates2_arm64-v8a", "Qt6QuickControls2_arm64-v8a",
+            "Qt6QuickControls2Impl_arm64-v8a", "Qt6QuickControls2BasicStyleImpl_arm64-v8a",
+            "Qt6QuickControls2Basic_arm64-v8a", "Qt6QuickControls2MaterialStyleImpl_arm64-v8a",
+            "Qt6QuickControls2Material_arm64-v8a", "Qt6QuickControls2FusionStyleImpl_arm64-v8a",
+            "Qt6QuickControls2Fusion_arm64-v8a", "Qt6QuickControls2ImagineStyleImpl_arm64-v8a",
+            "Qt6QuickControls2Imagine_arm64-v8a", "Qt6QuickControls2UniversalStyleImpl_arm64-v8a",
+            "Qt6QuickControls2Universal_arm64-v8a", "Qt6Widgets_arm64-v8a", "Qt6QuickParticles_arm64-v8a"
+        };
+
+        for (String lib : qtLibs) {
+            try {
+                String path = getApplicationInfo().nativeLibraryDir + "/lib" + lib + ".so";
+                File libFile = new File(path);
+                if (libFile.exists()) {
+                    Log.d(TAG, "🔄 Loading: " + path);
+                    System.load(path);
+                    Log.d(TAG, "✅ Loaded: " + lib);
+                } else {
+                    Log.e(TAG, "❌ File does not exist: " + path);
+                }
+            } catch (UnsatisfiedLinkError e) {
+                Log.e(TAG, "❌ Failed to load " + lib + ": " + e.getMessage());
+                // Continue with other libraries even if this one fails
+            }
+        }
+        return true;
+    }
+
     private void loadApplication(final Bundle loaderParams)
     {
+        // Pre-load Qt libraries to ensure native functions are available
+        loadQtLibraries();
+        
         // Set the proper Qt lib path
         if (loaderParams.containsKey(MAIN_LIBRARY_PATH_KEY)) {
             m_mainLibPath = loaderParams.getString(MAIN_LIBRARY_PATH_KEY);

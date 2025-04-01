@@ -6,8 +6,7 @@
     
     <application
         android:name="org.qtproject.qt6.android.bindings.QtApplication"
-        android:label="Kaminari App"
-        android:icon="@drawable/icon">
+        android:label="Kaminari App">
         
         <activity
             android:name="org.qtproject.qt6.android.bindings.QtActivity"
@@ -26,8 +25,11 @@
                 android:name="android.app.lib_name"
                 android:value="kaminari_app"/>
             <meta-data
-                android:name="android.app.qt_sources_resource_id"
-                android:resource="@array/qt_sources"/>
+                android:name="main.library"
+                android:value="kaminari_app"/>
+            <meta-data
+                android:name="native.libraries"
+                android:value="c++_shared:kaminari_app:Qt6Core_arm64-v8a:Qt6Gui_arm64-v8a:Qt6Widgets_arm64-v8a:Qt6Network_arm64-v8a"/>
             <meta-data
                 android:name="android.app.repository"
                 android:value="default"/>

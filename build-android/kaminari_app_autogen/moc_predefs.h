@@ -6,6 +6,7 @@
 #define SIZEOF_DPTR (sizeof(void*))
 #define _GNU_SOURCE 1
 #define _LP64 1
+#define _USING_LIBCXX 1
 #define __AARCH64EL__ 1
 #define __AARCH64_CMODEL_SMALL__ 1
 #define __ANDROID_API__ __ANDROID_MIN_SDK_VERSION__
@@ -273,7 +274,9 @@
 #define __SIZE_WIDTH__ 64
 #define __STDCPP_DEFAULT_NEW_ALIGNMENT__ 16UL
 #define __STDCPP_THREADS__ 1
+#define __STDC_CONSTANT_MACROS 1
 #define __STDC_HOSTED__ 1
+#define __STDC_LIMIT_MACROS 1
 #define __STDC_UTF_16__ 1
 #define __STDC_UTF_32__ 1
 #define __STDC__ 1

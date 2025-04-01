@@ -385,6 +385,9 @@
 		"QT_GUI_LIB",
 		"QT_NO_DEBUG",
 		"QT_WIDGETS_LIB",
+		"_USING_LIBCXX",
+		"__STDC_CONSTANT_MACROS",
+		"__STDC_LIMIT_MACROS",
 		"kaminari_app_EXPORTS"
 	],
 	"MOC_DEPEND_FILTERS" : 
@@ -396,6 +399,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include",
+		"/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/android/support/include",
 		"/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore",
 		"/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include",
 		"/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/mkspecs/android-clang",
@@ -437,6 +442,7 @@
 		[ "/Users/AfamObioha/kaminari_app/NewFolderDialog.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/NewItemDialog.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/SketchPage.cpp", "MU", null ],
+		[ "/Users/AfamObioha/kaminari_app/jni_bridge.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/main.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_app/mainwindow.cpp", "MU", null ]
 	],

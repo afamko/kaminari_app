@@ -1,41 +1,63 @@
 #include <jni.h>
 #include <android/log.h>
-#include <string>
+#include <stdlib.h> // For free()
+#include <string.h> // For strdup
 
-// Declare the main Qt function that we'll call from JNI
+#define LOG_TAG "KAMINARI_JNI"
+
+// Declare main function
 extern "C" int qt_main(int argc, char *argv[]);
 
-// The JNI bridge function with standard JNI export macros
+// JNI_OnLoad
 extern "C" JNIEXPORT jint JNICALL
-Java_com_AfamObioha_kaminari_1app_MainActivity_startKaminariApp(
-    JNIEnv *env, jobject thiz, jobjectArray jargs)
+JNI_OnLoad(JavaVM *vm, void * /* reserved */)
 {
-    __android_log_print(ANDROID_LOG_INFO, "KAMINARI_JNI", "🔴 JNI Bridge function called from Java");
+    __android_log_print(ANDROID_LOG_INFO, LOG_TAG, "JNI_OnLoad called");
 
-    // Convert Java string array to C++ argc/argv
-    int argc = env->GetArrayLength(jargs);
-    __android_log_print(ANDROID_LOG_INFO, "KAMINARI_JNI", "🔴 Processing %d arguments", argc);
+    JNIEnv *env = nullptr;
+    if (vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION_1_6) != JNI_OK)
+    {
+        __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, "Failed to get JNI environment");
+        return JNI_ERR;
+    }
 
-    char **argv = new char *[argc + 1]; // +1 for null terminator
+    __android_log_print(ANDROID_LOG_INFO, LOG_TAG, "JNI_OnLoad successful");
+    return JNI_VERSION_1_6;
+}
+
+// First method Qt calls
+extern "C" JNIEXPORT jboolean JNICALL
+Java_org_qtproject_qt6_android_QtNative_loadApplication(
+    JNIEnv *env, jclass /* cls */, jobject activity,
+    jobject classLoader, jobject bundle)
+{
+    __android_log_print(ANDROID_LOG_INFO, LOG_TAG, "QtNative.loadApplication called");
+    return JNI_TRUE;
+}
+
+// Second method Qt calls after loadApplication
+extern "C" JNIEXPORT jboolean JNICALL
+Java_org_qtproject_qt6_android_QtNative_startApplication(
+    JNIEnv *env, jclass /* cls */, jobjectArray jargv,
+    jobjectArray jenv)
+{
+    __android_log_print(ANDROID_LOG_INFO, LOG_TAG, "QtNative.startApplication called");
+
+    // Convert Java string arrays to C strings
+    int argc = env->GetArrayLength(jargv);
+    char **argv = new char *[argc + 1];
 
     for (int i = 0; i < argc; i++)
     {
-        jstring jstr = (jstring)env->GetObjectArrayElement(jargs, i);
-        const char *cstr = env->GetStringUTFChars(jstr, nullptr);
-        argv[i] = strdup(cstr); // Need to use strdup to copy string
-        __android_log_print(ANDROID_LOG_INFO, "KAMINARI_JNI", "🔴 Arg %d: %s", i, cstr);
-        env->ReleaseStringUTFChars(jstr, cstr);
+        jstring jstr = (jstring)env->GetObjectArrayElement(jargv, i);
+        const char *str = env->GetStringUTFChars(jstr, nullptr);
+        argv[i] = strdup(str); // Make a copy
+        env->ReleaseStringUTFChars(jstr, str);
     }
-
-    // Null-terminate the argv array
-    argv[argc] = nullptr;
-
-    __android_log_print(ANDROID_LOG_INFO, "KAMINARI_JNI", "🔴 Calling qt_main()");
+    argv[argc] = nullptr; // Null-terminate
 
     // Call our main Qt function
     int result = qt_main(argc, argv);
-
-    __android_log_print(ANDROID_LOG_INFO, "KAMINARI_JNI", "🔴 qt_main() returned %d", result);
 
     // Clean up
     for (int i = 0; i < argc; i++)
@@ -44,16 +66,10 @@ Java_com_AfamObioha_kaminari_1app_MainActivity_startKaminariApp(
     }
     delete[] argv;
 
-    return result;
+    return JNI_TRUE;
 }
 
-// Alternative function signature that Java might be looking for
-extern "C" JNIEXPORT jint JNICALL
-Java_com_AfamObioha_kaminari_1app_MainActivity_startKaminariApp___3Ljava_lang_String_2(
-    JNIEnv *env, jobject thiz, jobjectArray jargs)
+int qt_main(int argc, char *argv[])
 {
-    __android_log_print(ANDROID_LOG_INFO, "KAMINARI_JNI", "🔴 Alternative JNI signature called");
-
-    // Just call our main implementation
-    return Java_com_AfamObioha_kaminari_1app_MainActivity_startKaminariApp(env, thiz, jargs);
+    return 0;
 }

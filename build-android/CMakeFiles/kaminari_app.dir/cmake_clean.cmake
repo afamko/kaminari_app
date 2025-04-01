@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kaminari_app.dir/NewItemDialog.cpp.o.d"
   "CMakeFiles/kaminari_app.dir/SketchPage.cpp.o"
   "CMakeFiles/kaminari_app.dir/SketchPage.cpp.o.d"
+  "CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o"
+  "CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o.d"
   "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o"
   "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o.d"
   "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/mocs_compilation.cpp.o"

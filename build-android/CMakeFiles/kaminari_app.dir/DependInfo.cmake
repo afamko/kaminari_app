@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/AfamObioha/kaminari_app/NewFolderDialog.cpp" "CMakeFiles/kaminari_app.dir/NewFolderDialog.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/NewFolderDialog.cpp.o.d"
   "/Users/AfamObioha/kaminari_app/NewItemDialog.cpp" "CMakeFiles/kaminari_app.dir/NewItemDialog.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/NewItemDialog.cpp.o.d"
   "/Users/AfamObioha/kaminari_app/SketchPage.cpp" "CMakeFiles/kaminari_app.dir/SketchPage.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/SketchPage.cpp.o.d"
+  "/Users/AfamObioha/kaminari_app/jni_bridge.cpp" "CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o.d"
   "/Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp" "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o.d"
   "/Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/mocs_compilation.cpp" "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/mocs_compilation.cpp.o.d"
   "/Users/AfamObioha/kaminari_app/main.cpp" "CMakeFiles/kaminari_app.dir/main.cpp.o" "gcc" "CMakeFiles/kaminari_app.dir/main.cpp.o.d"

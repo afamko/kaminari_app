@@ -10,24 +10,81 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android.cmake \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Determine-Compiler.cmake \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/platforms.cmake \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__bit_reference \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__config \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__debug \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__functional_base \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__node_handle \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__nullptr \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__split_buffer \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__string \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__threading_support \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__tree \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__tuple \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__undef_macros \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/algorithm \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/array \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/atomic \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/bit \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cctype \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/chrono \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/climits \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cmath \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstddef \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdint \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdio \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdlib \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstring \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ctime \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ctype.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cwchar \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cwctype \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/errno.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/exception \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/functional \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/initializer_list \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/iosfwd \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/iterator \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/limits \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/limits.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/list \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/map \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/math.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/memory \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/new \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/numeric \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/optional \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ratio \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdbool.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stddef.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdexcept \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdint.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdio.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdlib.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string_view \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/tuple \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/type_traits \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/typeinfo \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/utility \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/variant \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/vector \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/version \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/wchar.h \
+  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/wctype.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include/stdarg.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/errno.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/posix_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sigcontext.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/siginfo.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/signal.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sve_context.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/alloca.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/api-level.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_signal_inlines.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/versioning.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/errno.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/siginfo.h \
@@ -35,79 +92,12 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/signal.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/assert.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/ctype_inlines.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/mbstate_t.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/posix_limits.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/pthread_types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/seek_constants.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/signal_types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/strcasecmp.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/timespec.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wait.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wchar_limits.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wctype.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__bit_reference \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__debug \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__functional_base \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__node_handle \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__nullptr \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__split_buffer \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__string \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__threading_support \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tuple \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__undef_macros \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/algorithm \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/array \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/atomic \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/bit \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cctype \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/chrono \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/climits \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cmath \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstddef \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdint \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdio \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdlib \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstring \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ctime \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwchar \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwctype \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/exception \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/float.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/functional \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/initializer_list \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iterator \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/limits \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/list \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/map \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/new \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/numeric \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/optional \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ratio \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdbool.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stddef.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdexcept \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string_view \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/tuple \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/type_traits \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/typeinfo \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/utility \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/variant \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/vector \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/version \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/ctype.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/errno.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/features.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/limits.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/compiler.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/compiler_types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/errno.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/limits.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/posix_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/sched.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/signal.h \
@@ -115,18 +105,10 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time_types.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/types.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/wait.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/malloc.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/math.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/pthread.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sched.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/semaphore.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/signal.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdio.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdlib.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/string.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/strings.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/cdefs.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/select.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/time.h \
@@ -134,8 +116,6 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/ucontext.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/user.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wchar.h \
-  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wctype.h \
   /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/xlocale.h \
   /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/QStringList \
   /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h \
@@ -432,6 +412,7 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   kaminari_app_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_app/jni_bridge.cpp \
   /Users/AfamObioha/kaminari_app/main.cpp \
   /Users/AfamObioha/kaminari_app/mainwindow.cpp \
   /Users/AfamObioha/kaminari_app/mainwindow.h \
@@ -559,11 +540,11 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake
 
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake:
-
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Linux-Initialize.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Android/Determine-Compiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Android-Determine.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Android-Determine-CXX.cmake:
 
@@ -572,6 +553,10 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Android-Clang-CXX.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Android-Clang-C.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Linux.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindVulkan.cmake:
 
@@ -611,9 +596,9 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
 
@@ -639,9 +624,15 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
+
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
@@ -656,10 +647,6 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:
 
@@ -683,9 +670,9 @@ kaminari_app_autogen/timestamp: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9
 
 /Users/AfamObioha/kaminari_app/mainwindow.ui:
 
-/Users/AfamObioha/kaminari_app/mainwindow.h:
-
 /Users/AfamObioha/kaminari_app/main.cpp:
+
+/Users/AfamObioha/kaminari_app/jni_bridge.cpp:
 
 CMakeFiles/3.28.3/CMakeSystem.cmake:
 
@@ -697,11 +684,7 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/kaminari_app/SketchPage.cpp:
 
-/Users/AfamObioha/kaminari_app/NewItemDialog.cpp:
-
 /Users/AfamObioha/kaminari_app/NewFolderDialog.cpp:
-
-/Users/AfamObioha/kaminari_app/FolderWidget.h:
 
 /Users/AfamObioha/kaminari_app/FolderWidget.cpp:
 
@@ -711,37 +694,9 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
 /Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
-
 /Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
 
@@ -755,15 +710,11 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwctype:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtconfiginclude.h:
 
@@ -774,6 +725,8 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/type_traits:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake:
 
@@ -787,15 +740,21 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdlib:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q23utility.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QAndroidIntegrationPluginTargets-relwithdebinfo.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
 
@@ -805,9 +764,9 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QAndroidIntegrationPluginAdditionalTargetInfo.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__split_buffer:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tree:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20memory.h:
 
@@ -827,13 +786,15 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/QtInstallPaths.cmake:
 
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/vector:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qttypetraits.h:
 
@@ -851,7 +812,7 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
 
@@ -861,13 +822,31 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__node_handle:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-CXX.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
+
+/Users/AfamObioha/kaminari_app/NewItemDialog.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Targets.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qcursor.h:
 
@@ -879,11 +858,19 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/malloc.h:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringmatcher.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/FindGLESv2.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
 
@@ -893,9 +880,11 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/limits:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qwidget.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/initializer_list:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qwidgetaction.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qtwidgetsglobal.h:
 
@@ -903,35 +892,37 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qtwidgets-config.h:
 
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6QAndroidStylePluginTargets.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qtabwidget.h:
 
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6HostInfo/Qt6HostInfoConfig.cmake:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QWidget:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6HostInfo/Qt6HostInfoConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qscrollarea.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qlayout.h:
 
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtcoreexports.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qlabel.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qgridlayout.h:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qframe.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QWidgetAction:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__split_buffer:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QVBoxLayout:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QScrollArea:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QLabel:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QHBoxLayout:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qwindowdefs.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qtransform.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
@@ -953,6 +944,16 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qtextdocument.h:
 
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qabstractscrollarea.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/types.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qrgba64.h:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QAndroidIntegrationPluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qrgb.h:
@@ -962,6 +963,8 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsharedpointer_impl.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qregion.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qpixmap.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake:
 
@@ -976,6 +979,8 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time_types.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qpalette.h:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qpaintdevice.h:
 
@@ -995,21 +1000,31 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qfont.h:
 
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/wctype.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qicon.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qcolor.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qxptype_traits.h:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
 
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/array:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qvarlengtharray.h:
 
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__bit_reference:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qvariant.h:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qutf8stringview.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
 
@@ -1065,69 +1080,59 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/limits.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtclasshelpermacros.h:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsystemdetection.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsysinfo.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cmath:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qswap.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/FindGLESv2.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringmatcher.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringfwd.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringbuilder.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringalgorithms.h:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/siginfo.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringalgorithms.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qshareddata.h:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sigcontext.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qset.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qmainwindow.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qscopeguard.h:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qscopedpointer.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qgenericatomic.h:
 
 /Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbindingstorage.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qgenericatomic.h:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qrefcount.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QAndroidIntegrationPluginTargets.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/types.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qabstractscrollarea.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qrect.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qprocessordetection.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qpair.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmargins.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobjectdefs.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qpoint.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmetatype.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ctype.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobjectdefs_impl.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/android-legacy.toolchain.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsharedpointer.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobject.h:
 
@@ -1135,51 +1140,41 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qurl.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/variant:
-
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qhash.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qnumeric.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/memory:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qassert.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmetacontainer.h:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmath.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtaggedpointer.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/signal.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsize.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakePushCheckState.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/errno.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/new:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QToolBar:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/int-ll64.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/exception:
-
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmalloc.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlist.h:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmap.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6AndroidMacros.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/ctype_inlines.h:
-
 kaminari_app_autogen/moc_predefs.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiodevicebase.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/posix_limits.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wchar.h:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/bitsperlong.h:
 
@@ -1191,11 +1186,39 @@ kaminari_app_autogen/moc_predefs.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qglobalstatic.h:
 
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qmainwindow.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qscopeguard.h:
+
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qforeach.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdio.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/signal.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/iterator:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qoverload.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qfloat16.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qexceptionhandling.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qpolygon.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdarwinhelpers.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/map:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontainertools_impl.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qpair.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cmath:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdlib.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qconstructormacros.h:
 
@@ -1209,25 +1232,21 @@ kaminari_app_autogen/moc_predefs.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qconfig.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdarwinhelpers.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qpolygon.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompare_impl.h:
-
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearrayalgorithms.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompare.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qpoint.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qchar.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmargins.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stddef.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearraylist.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/signal.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qshareddata_impl.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qversiontagging.h:
 
@@ -1237,125 +1256,215 @@ kaminari_app_autogen/moc_predefs.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearray.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/utility:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/iosfwd:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qarraydata.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmetacontainer.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FeatureSummary.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qassert.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/FindWrapAtomic.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobjectdefs.h:
 
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdbool.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qatomic.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/memory:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qanystringview.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobject_impl.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringlist.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/pthread.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringtokenizer.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/xlocale.h:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-CXX.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
-
-/Users/AfamObioha/kaminari_app/NewItemDialog.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/wctype.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/posix_types.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/signal-defs.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlogging.h:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__nullptr:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/mbstate_t.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qarraydataops.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20type_traits.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobjectdefs_impl.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/QStringList:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/initializer_list:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qglobal.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstddef:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qmetatype.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/ucontext.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/time.h:
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearraylist.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__tree:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/strings.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qttranslation.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtFeatureCommon.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qhashfunctions.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/limits.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/select.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdlib.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/list:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qshareddata_impl.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/signal.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/atomic:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/siginfo.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qline.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__threading_support:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qglobal.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/QStringList:
-
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/semaphore.h:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sched.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QAndroidIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/math.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompilerdetection.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdbool.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/wait.h:
-
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/types.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstring:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/stddef.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/errno.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__tuple:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6VersionlessTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiodevice.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/signal-defs.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/signal.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__node_handle:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/posix_types.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qtoolbar.h:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/user.h:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/compiler_types.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Clang.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/assert.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/time.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/errno.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/exception:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/features.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/flags.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qatomic.h:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringview.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/signal_types.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbasicatomic.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/posix_types.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/versioning.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearrayview.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_signal_inlines.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/QPixmap:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiterator.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/api-level.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__string:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdint.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/types.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompilerdetection.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlatin1stringview.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdlib:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cwctype:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/utility:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qaction.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include/stdarg.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringlist.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/pthread.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtdeprecationmarkers.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/numeric:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/wchar.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qflags.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringtokenizer.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/xlocale.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cctype:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/pthread_types.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/bit:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qrect.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/posix_types.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FeatureSummary.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/FindWrapAtomic.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdio.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstddef:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qanystringview.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/variant:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/typeinfo:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/math.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/tuple:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string_view:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QWidgetAction:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__undef_macros:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/string:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qnamespace.h:
+
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qalgorithms.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cwchar:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qbitmap.h:
 
@@ -1365,227 +1474,15 @@ kaminari_app_autogen/moc_predefs.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontiguouscache.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/flags.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ratio:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/features.h:
+/Users/AfamObioha/kaminari_app/NewItemDialog.cpp:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/float.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/ctype.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/version:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Linux.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__bit_reference:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/vector:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdio:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/tuple:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qchar.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/type_traits:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/select.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iterator:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/ucontext.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wctype.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wait.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdexcept:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlist.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtdeprecationmarkers.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stddef.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlatin1stringview.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/pthread_types.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__debug:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontainertools_impl.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/numeric:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qobject_impl.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qarraydataops.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/signal.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/string.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/posix_types.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/map:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/iosfwd:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ctime:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cwchar:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtversionchecks.h:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/timespec.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qwidgetaction.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qxptype_traits.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstring:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/atomic:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/limits:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/version:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/sched.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtaggedpointer.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdint:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Clang.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/errno.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/assert.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qgridlayout.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/functional:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/types.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/alloca.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/climits:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/chrono:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QLabel:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/array:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qpixmap.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cctype:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qoverload.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/bit:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qttranslation.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qhashfunctions.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__tuple:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string_view:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__string:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__functional_base:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/QPixmap:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiterator.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/api-level.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/posix_types.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/wchar_limits.h:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Android-Determine.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__config:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/errno-base.h:
-
-/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qalgorithms.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Determine.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/ratio:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qflags.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qrgba64.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/strcasecmp.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/algorithm:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/versioning.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/__undef_macros:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbasicatomic.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qlabel.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtcoreexports.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringview.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/signal_types.h:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/seek_constants.h:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
-
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/optional:
-
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdatastream.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__functional_base:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake:
 
@@ -1599,74 +1496,120 @@ kaminari_app_autogen/moc_predefs.h:
 
 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Determine-Compiler.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtcore-config.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6QAndroidStylePluginAdditionalTargetInfo.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/chrono:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qnamespace.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/q20functional.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/types.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/time.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qicon.h:
+/Users/AfamObioha/kaminari_app/mainwindow.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qcolor.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/stdexcept:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qlogging.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qarraydata.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiodevice.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qbytearrayview.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/legacy_signal_inlines.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/signal.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qfloat16.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtclasshelpermacros.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/typeinfo:
+/Users/AfamObioha/kaminari_app/FolderWidget.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdint:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/list:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtversionchecks.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/bits/timespec.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcontainerfwd.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/types.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sve_context.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/string:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/algorithm:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qiterable.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qfunctionpointer.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/sve_context.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6QAndroidStylePluginAdditionalTargetInfo.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsize.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/limits.h:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/signal.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qcompare_impl.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qtcore-config.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__debug:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android/asm/errno.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/QScrollArea:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qsharedpointer.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/android-legacy.toolchain.cmake:
+/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/cstdio:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__threading_support:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qaction.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include/stdarg.h:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qutf8stringview.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6VersionlessTargets.cmake:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/optional:
 
-/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/new:
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qstringbuilder.h:
 
-/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qshareddata.h:
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__nullptr:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/__config:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/linux/time.h:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qtransform.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/functional:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/ctime:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Determine.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtWidgets/qwidget.h:
+
+/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/sources/cxx-stl/llvm-libc++/include/climits:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QAndroidIntegrationPluginTargets.cmake:
+
+/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtCore/qdatastream.h:
 
 /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtGui/qbrush.h:

@@ -62,8 +62,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -83,18 +83,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_14526/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_14526.dir/build.make CMakeFiles/cmTC_14526.dir/build
-        Building C object CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4fc8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c4fc8.dir/build.make CMakeFiles/cmTC_c4fc8.dir/build
+        Building C object CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c
         Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin
          (in-process)
-         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-apple-darwin24.3.0
         ignoring nonexistent directory "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
         #include "..." search starts here:
@@ -104,14 +104,14 @@ events:
          /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
          /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
         End of search list.
-        Linking C executable cmTC_14526
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14526.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -o cmTC_14526 
+        Linking C executable cmTC_c4fc8
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4fc8.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -o cmTC_c4fc8 
         Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin
-         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_14526 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
+         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_c4fc8 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
         
       exitCode: 0
   -
@@ -145,18 +145,18 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw']
+        ignore line: [Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_14526/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_14526.dir/build.make CMakeFiles/cmTC_14526.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4fc8/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c4fc8.dir/build.make CMakeFiles/cmTC_c4fc8.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-Fyolgw -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-r5mVSY -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-apple-darwin24.3.0]
         ignore line: [ignoring nonexistent directory "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
         ignore line: [#include "..." search starts here:]
@@ -166,14 +166,14 @@ events:
         ignore line: [ /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
         ignore line: [ /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_14526]
-        ignore line: [/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14526.dir/link.txt --verbose=1]
-        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o -o cmTC_14526 ]
+        ignore line: [Linking C executable cmTC_c4fc8]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4fc8.dir/link.txt --verbose=1]
+        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o -o cmTC_c4fc8 ]
         ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-        link line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_14526 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
+        link line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_c4fc8 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
           arg [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
           arg [--sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
           arg [-pie] ==> ignore
@@ -191,7 +191,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_14526] ==> ignore
+          arg [cmTC_c4fc8] ==> ignore
           arg [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o] ==> obj [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o]
           arg [-L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64] ==> dir [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64]
           arg [-L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29] ==> dir [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29]
@@ -201,7 +201,7 @@ events:
           arg [--no-rosegment] ==> ignore
           arg [--fatal-warnings] ==> ignore
           arg [--no-undefined] ==> ignore
-          arg [CMakeFiles/cmTC_14526.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_c4fc8.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a]
           arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
           arg [-ldl] ==> lib [dl]
@@ -231,8 +231,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -252,18 +252,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3893/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a3893.dir/build.make CMakeFiles/cmTC_a3893.dir/build
-        Building CXX object CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_38a16/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_38a16.dir/build.make CMakeFiles/cmTC_38a16.dir/build
+        Building CXX object CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin
          (in-process)
-         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-apple-darwin24.3.0
         ignoring nonexistent directory "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
         #include "..." search starts here:
@@ -274,14 +274,14 @@ events:
          /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
          /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
         End of search list.
-        Linking CXX executable cmTC_a3893
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3893.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a3893 
+        Linking CXX executable cmTC_38a16
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a16.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_38a16 
         Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
         Target: aarch64-none-linux-android29
         Thread model: posix
         InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin
-         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_a3893 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
+         "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_38a16 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o
         
       exitCode: 0
   -
@@ -317,18 +317,18 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS']
+        ignore line: [Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3893/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a3893.dir/build.make CMakeFiles/cmTC_a3893.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_38a16/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_38a16.dir/build.make CMakeFiles/cmTC_38a16.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-O1LmsS -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android29 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 14.0.7 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu -resource-dir /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7 -dependency-file CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/include -internal-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-c4ZMgu -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 14.0.7 based upon LLVM 14.0.7git default target x86_64-apple-darwin24.3.0]
         ignore line: [ignoring nonexistent directory "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
         ignore line: [#include "..." search starts here:]
@@ -339,14 +339,14 @@ events:
         ignore line: [ /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
         ignore line: [ /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_a3893]
-        ignore line: [/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3893.dir/link.txt --verbose=1]
-        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a3893 ]
+        ignore line: [Linking CXX executable cmTC_38a16]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a16.dir/link.txt --verbose=1]
+        ignore line: [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat    -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_38a16 ]
         ignore line: [Android (9352603  based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
         ignore line: [Target: aarch64-none-linux-android29]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-        link line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_a3893 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
+        link line: [ "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld" --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_38a16 /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29 -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtend_android.o]
           arg [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld] ==> ignore
           arg [--sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
           arg [-pie] ==> ignore
@@ -364,7 +364,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a3893] ==> ignore
+          arg [cmTC_38a16] ==> ignore
           arg [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o] ==> obj [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/crtbegin_dynamic.o]
           arg [-L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64] ==> dir [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/14.0.7/lib/linux/aarch64]
           arg [-L/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29] ==> dir [/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29]
@@ -374,7 +374,7 @@ events:
           arg [--no-rosegment] ==> ignore
           arg [--fatal-warnings] ==> ignore
           arg [--no-undefined] ==> ignore
-          arg [CMakeFiles/cmTC_a3893.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_38a16.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-Bstatic] ==> search static
           arg [-lc++] ==> lib [c++]
           arg [-Bdynamic] ==> search dynamic
@@ -410,12 +410,12 @@ events:
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-wAJfbW"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-wAJfbW"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-W5wzzB"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-W5wzzB"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -436,25 +436,25 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-wAJfbW'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-W5wzzB'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25400/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_25400.dir/build.make CMakeFiles/cmTC_25400.dir/build
-        Building C object CMakeFiles/cmTC_25400.dir/src.c.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_25400.dir/src.c.o -MF CMakeFiles/cmTC_25400.dir/src.c.o.d -o CMakeFiles/cmTC_25400.dir/src.c.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-wAJfbW/src.c
-        /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-wAJfbW/src.c:13:3: warning: implicit declaration of function 'pthread_cancel' is invalid in C99 [-Wimplicit-function-declaration]
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_579e8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_579e8.dir/build.make CMakeFiles/cmTC_579e8.dir/build
+        Building C object CMakeFiles/cmTC_579e8.dir/src.c.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_579e8.dir/src.c.o -MF CMakeFiles/cmTC_579e8.dir/src.c.o.d -o CMakeFiles/cmTC_579e8.dir/src.c.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-W5wzzB/src.c
+        /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-W5wzzB/src.c:13:3: warning: implicit declaration of function 'pthread_cancel' is invalid in C99 [-Wimplicit-function-declaration]
           pthread_cancel(thread);
           ^
         1 warning generated.
-        Linking C executable cmTC_25400
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25400.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_25400.dir/src.c.o -o cmTC_25400  -latomic -lm 
+        Linking C executable cmTC_579e8
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_579e8.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_579e8.dir/src.c.o -o cmTC_579e8  -latomic -lm 
         ld: error: undefined symbol: pthread_cancel
         >>> referenced by src.c:13
-        >>>               CMakeFiles/cmTC_25400.dir/src.c.o:(main)
+        >>>               CMakeFiles/cmTC_579e8.dir/src.c.o:(main)
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
-        make[1]: *** [cmTC_25400] Error 1
-        make: *** [cmTC_25400/fast] Error 2
+        make[1]: *** [cmTC_579e8] Error 1
+        make: *** [cmTC_579e8/fast] Error 2
         
       exitCode: 2
   -
@@ -466,12 +466,12 @@ events:
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:119 (include)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-b2eT9p"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-b2eT9p"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-gqB5fv"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-gqB5fv"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -492,15 +492,15 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-b2eT9p'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-gqB5fv'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0dea0/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0dea0.dir/build.make CMakeFiles/cmTC_0dea0.dir/build
-        Building C object CMakeFiles/cmTC_0dea0.dir/CheckForPthreads.c.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_0dea0.dir/CheckForPthreads.c.o -MF CMakeFiles/cmTC_0dea0.dir/CheckForPthreads.c.o.d -o CMakeFiles/cmTC_0dea0.dir/CheckForPthreads.c.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-b2eT9p/CheckForPthreads.c
-        Linking C executable cmTC_0dea0
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dea0.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_0dea0.dir/CheckForPthreads.c.o -o cmTC_0dea0  -pthread -latomic -lm 
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8164/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8164.dir/build.make CMakeFiles/cmTC_e8164.dir/build
+        Building C object CMakeFiles/cmTC_e8164.dir/CheckForPthreads.c.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_e8164.dir/CheckForPthreads.c.o -MF CMakeFiles/cmTC_e8164.dir/CheckForPthreads.c.o.d -o CMakeFiles/cmTC_e8164.dir/CheckForPthreads.c.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-gqB5fv/CheckForPthreads.c
+        Linking C executable cmTC_e8164
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8164.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_e8164.dir/CheckForPthreads.c.o -o cmTC_e8164  -pthread -latomic -lm 
         
       exitCode: 0
   -
@@ -514,12 +514,12 @@ events:
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:41 (include)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-DVHSw5"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-DVHSw5"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-FszlaV"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-FszlaV"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -529,7 +529,7 @@ events:
       ANDROID_TOOLCHAIN: "clang"
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
       CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android29"
-      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  "
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h"
       CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
       CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android29"
       CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
@@ -540,15 +540,15 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-DVHSw5'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-FszlaV'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41ccb/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_41ccb.dir/build.make CMakeFiles/cmTC_41ccb.dir/build
-        Building CXX object CMakeFiles/cmTC_41ccb.dir/src.cxx.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_STDATOMIC  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_41ccb.dir/src.cxx.o -MF CMakeFiles/cmTC_41ccb.dir/src.cxx.o.d -o CMakeFiles/cmTC_41ccb.dir/src.cxx.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-DVHSw5/src.cxx
-        Linking CXX executable cmTC_41ccb
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41ccb.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_41ccb.dir/src.cxx.o -o cmTC_41ccb  -latomic -lm 
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8157/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d8157.dir/build.make CMakeFiles/cmTC_d8157.dir/build
+        Building CXX object CMakeFiles/cmTC_d8157.dir/src.cxx.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_STDATOMIC  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h  -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_d8157.dir/src.cxx.o -MF CMakeFiles/cmTC_d8157.dir/src.cxx.o.d -o CMakeFiles/cmTC_d8157.dir/src.cxx.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-FszlaV/src.cxx
+        Linking CXX executable cmTC_d8157
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8157.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_d8157.dir/src.cxx.o -o cmTC_d8157  -latomic -lm 
         
       exitCode: 0
   -
@@ -563,12 +563,12 @@ events:
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     checks:
       - "Performing Test HAVE_EGL"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ots9pm"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ots9pm"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-tcxqyn"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-tcxqyn"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -578,7 +578,7 @@ events:
       ANDROID_TOOLCHAIN: "clang"
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
       CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android29"
-      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  "
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h"
       CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
       CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android29"
       CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
@@ -589,15 +589,15 @@ events:
       variable: "HAVE_EGL"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ots9pm'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-tcxqyn'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6770/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f6770.dir/build.make CMakeFiles/cmTC_f6770.dir/build
-        Building CXX object CMakeFiles/cmTC_f6770.dir/src.cxx.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_f6770.dir/src.cxx.o -MF CMakeFiles/cmTC_f6770.dir/src.cxx.o.d -o CMakeFiles/cmTC_f6770.dir/src.cxx.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ots9pm/src.cxx
-        Linking CXX executable cmTC_f6770
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6770.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_f6770.dir/src.cxx.o -o cmTC_f6770  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libEGL.so -latomic -lm 
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e817a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e817a.dir/build.make CMakeFiles/cmTC_e817a.dir/build
+        Building CXX object CMakeFiles/cmTC_e817a.dir/src.cxx.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_EGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h  -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_e817a.dir/src.cxx.o -MF CMakeFiles/cmTC_e817a.dir/src.cxx.o.d -o CMakeFiles/cmTC_e817a.dir/src.cxx.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-tcxqyn/src.cxx
+        Linking CXX executable cmTC_e817a
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e817a.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_e817a.dir/src.cxx.o -o cmTC_e817a  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libEGL.so -latomic -lm 
         
       exitCode: 0
   -
@@ -611,12 +611,12 @@ events:
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:164 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
     checks:
       - "Performing Test HAVE_GLESv2"
     directories:
-      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ib5ZRm"
-      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ib5ZRm"
+      source: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-cvPOQQ"
+      binary: "/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-cvPOQQ"
     cmakeVariables:
       ANDROID_ABI: "arm64-v8a"
       ANDROID_ARM_MODE: "thumb"
@@ -626,7 +626,7 @@ events:
       ANDROID_TOOLCHAIN: "clang"
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
       CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android29"
-      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  "
+      CMAKE_CXX_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h"
       CMAKE_CXX_FLAGS_DEBUG: "-fno-limit-debug-info "
       CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android29"
       CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
@@ -637,15 +637,15 @@ events:
       variable: "HAVE_GLESv2"
       cached: true
       stdout: |
-        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ib5ZRm'
+        Change Dir: '/Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-cvPOQQ'
         
-        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_01e99/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_01e99.dir/build.make CMakeFiles/cmTC_01e99.dir/build
-        Building CXX object CMakeFiles/cmTC_01e99.dir/src.cxx.o
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_GLESv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_01e99.dir/src.cxx.o -MF CMakeFiles/cmTC_01e99.dir/src.cxx.o.d -o CMakeFiles/cmTC_01e99.dir/src.cxx.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-ib5ZRm/src.cxx
-        Linking CXX executable cmTC_01e99
-        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01e99.dir/link.txt --verbose=1
-        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security    -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_01e99.dir/src.cxx.o -o cmTC_01e99  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libGLESv2.so /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libEGL.so -latomic -lm 
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf90e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cf90e.dir/build.make CMakeFiles/cmTC_cf90e.dir/build
+        Building CXX object CMakeFiles/cmTC_cf90e.dir/src.cxx.o
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DHAVE_GLESv2  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h  -std=gnu++17 -fPIE -MD -MT CMakeFiles/cmTC_cf90e.dir/src.cxx.o -MF CMakeFiles/cmTC_cf90e.dir/src.cxx.o.d -o CMakeFiles/cmTC_cf90e.dir/src.cxx.o -c /Users/AfamObioha/kaminari_app/build-android/CMakeFiles/CMakeScratch/TryCompile-cvPOQQ/src.cxx
+        Linking CXX executable cmTC_cf90e
+        /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf90e.dir/link.txt --verbose=1
+        /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -include string.h -include stdlib.h  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_cf90e.dir/src.cxx.o -o cmTC_cf90e  /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libGLESv2.so /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libEGL.so -latomic -lm 
         
       exitCode: 0
 ...

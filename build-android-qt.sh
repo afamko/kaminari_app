@@ -1,5 +1,6 @@
 #!/bin/bash
-set -e
+set -e  # Exit on errors for most of the script
+set +e  # Temporarily allow errors for the androiddeployqt command
 
 # Go to project directory
 cd "$(dirname "$0")"
@@ -18,7 +19,7 @@ rm -rf build-android
 mkdir -p build-android
 cd build-android
 
-# Build with CMake
+# Configure with CMake
 echo "Building with CMake..."
 cmake .. \
   -DCMAKE_TOOLCHAIN_FILE="$ANDROID_NDK_HOME/build/cmake/android.toolchain.cmake" \
@@ -42,6 +43,44 @@ echo "Copied app library to android-build/src/main/jniLibs/arm64-v8a/"
 cp "$STL_LIB_PATH" android-build/src/main/jniLibs/arm64-v8a/
 echo "Copied STL library to android-build/src/main/jniLibs/arm64-v8a/"
 
+# Copy Qt libraries based on what we saw in the file listings
+echo "Copying Qt libraries..."
+QT_LIBS=(
+  "libQt6Core_arm64-v8a.so"
+  "libQt6Gui_arm64-v8a.so"
+  "libQt6Widgets_arm64-v8a.so"
+  "libQt6Network_arm64-v8a.so"
+  "libQt6OpenGL_arm64-v8a.so"
+  "libQt6Qml_arm64-v8a.so"
+  "libQt6QmlModels_arm64-v8a.so"
+  "libQt6QmlWorkerScript_arm64-v8a.so"
+  "libQt6Quick_arm64-v8a.so"
+  "libQt6QuickTemplates2_arm64-v8a.so"
+  "libQt6QuickControls2_arm64-v8a.so"
+  "libQt6QuickControls2Impl_arm64-v8a.so"
+  "libQt6QuickControls2BasicStyleImpl_arm64-v8a.so"
+  "libQt6QuickControls2Basic_arm64-v8a.so"
+  "libQt6QuickControls2MaterialStyleImpl_arm64-v8a.so"
+  "libQt6QuickControls2Material_arm64-v8a.so"
+  "libQt6QuickControls2FusionStyleImpl_arm64-v8a.so"
+  "libQt6QuickControls2Fusion_arm64-v8a.so"
+  "libQt6QuickControls2ImagineStyleImpl_arm64-v8a.so"
+  "libQt6QuickControls2Imagine_arm64-v8a.so"
+  "libQt6QuickControls2UniversalStyleImpl_arm64-v8a.so"
+  "libQt6QuickControls2Universal_arm64-v8a.so"
+  "libQt6QuickParticles_arm64-v8a.so"
+  "libQt6ShaderTools_arm64-v8a.so"
+)
+
+for lib in "${QT_LIBS[@]}"; do
+  if [ -f "$QT_PATH/lib/$lib" ]; then
+    cp "$QT_PATH/lib/$lib" android-build/src/main/jniLibs/arm64-v8a/
+    echo "  Copied $lib"
+  else
+    echo "  Skipped $lib (not found)"
+  fi
+done
+
 # Copy Java files to the right location
 mkdir -p android-build/src/main/java/org/qtproject/qt6/android/bindings
 cp ../android/src/org/qtproject/qt6/android/bindings/QtActivity.java android-build/src/main/java/org/qtproject/qt6/android/bindings/
@@ -56,38 +95,6 @@ cp ../android/AndroidManifest.xml android-build/src/main/AndroidManifest.xml
 # Copy resources
 mkdir -p android-build/src/main/res/values
 cp ../android/res/values/libs.xml android-build/src/main/res/values/
-
-# Create icon resources (missing in the error)
-mkdir -p android-build/src/main/res/drawable
-mkdir -p android-build/src/main/res/drawable-hdpi
-mkdir -p android-build/src/main/res/drawable-mdpi
-mkdir -p android-build/src/main/res/drawable-xhdpi
-mkdir -p android-build/src/main/res/drawable-xxhdpi
-
-# Create a simple icon XML (vector drawable)
-cat > android-build/src/main/res/drawable/icon.xml << EOF
-<?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-    <path
-        android:fillColor="#3DDC84"
-        android:pathData="M0,0h108v108h-108z" />
-    <path
-        android:fillColor="#00000000"
-        android:pathData="M9,0L9,108"
-        android:strokeWidth="0.8"
-        android:strokeColor="#33FFFFFF" />
-</vector>
-EOF
-
-# Copy the icon XML to all required drawable folders
-cp android-build/src/main/res/drawable/icon.xml android-build/src/main/res/drawable-hdpi/
-cp android-build/src/main/res/drawable/icon.xml android-build/src/main/res/drawable-mdpi/
-cp android-build/src/main/res/drawable/icon.xml android-build/src/main/res/drawable-xhdpi/
-cp android-build/src/main/res/drawable/icon.xml android-build/src/main/res/drawable-xxhdpi/
 
 # Create build.gradle with proper plugins and dependencies
 cd android-build

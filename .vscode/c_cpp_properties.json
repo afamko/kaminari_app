@@ -11,7 +11,8 @@
                 "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtQml",
                 "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/include/QtQuick",
                 "/Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/mkspecs/android-clang",
-                "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include"
+                "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include",
+                "/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android"
             ],
             "defines": [
                 "QT_CORE_LIB",

@@ -200,10 +200,24 @@ CMakeFiles/kaminari_app.dir/SketchPage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kaminari_app.dir/SketchPage.cpp.s"
 	/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_app/SketchPage.cpp -o CMakeFiles/kaminari_app.dir/SketchPage.cpp.s
 
+CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o: CMakeFiles/kaminari_app.dir/flags.make
+CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o: /Users/AfamObioha/kaminari_app/jni_bridge.cpp
+CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o: CMakeFiles/kaminari_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o"
+	/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o -MF CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o.d -o CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o -c /Users/AfamObioha/kaminari_app/jni_bridge.cpp
+
+CMakeFiles/kaminari_app.dir/jni_bridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kaminari_app.dir/jni_bridge.cpp.i"
+	/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_app/jni_bridge.cpp > CMakeFiles/kaminari_app.dir/jni_bridge.cpp.i
+
+CMakeFiles/kaminari_app.dir/jni_bridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kaminari_app.dir/jni_bridge.cpp.s"
+	/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_app/jni_bridge.cpp -o CMakeFiles/kaminari_app.dir/jni_bridge.cpp.s
+
 CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o: CMakeFiles/kaminari_app.dir/flags.make
 CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o: kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp
 CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o: CMakeFiles/kaminari_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o"
 	/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o -MF CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o.d -o CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o -c /Users/AfamObioha/kaminari_app/build-android/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp
 
 CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.i: cmake_force
@@ -223,6 +237,7 @@ kaminari_app_OBJECTS = \
 "CMakeFiles/kaminari_app.dir/NewItemDialog.cpp.o" \
 "CMakeFiles/kaminari_app.dir/NewFolderDialog.cpp.o" \
 "CMakeFiles/kaminari_app.dir/SketchPage.cpp.o" \
+"CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o" \
 "CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o"
 
 # External object files for target kaminari_app
@@ -235,16 +250,18 @@ libkaminari_app.so: CMakeFiles/kaminari_app.dir/FolderWidget.cpp.o
 libkaminari_app.so: CMakeFiles/kaminari_app.dir/NewItemDialog.cpp.o
 libkaminari_app.so: CMakeFiles/kaminari_app.dir/NewFolderDialog.cpp.o
 libkaminari_app.so: CMakeFiles/kaminari_app.dir/SketchPage.cpp.o
+libkaminari_app.so: CMakeFiles/kaminari_app.dir/jni_bridge.cpp.o
 libkaminari_app.so: CMakeFiles/kaminari_app.dir/kaminari_app_autogen/EWIEGA46WW/qrc_myresources.cpp.o
 libkaminari_app.so: CMakeFiles/kaminari_app.dir/build.make
 libkaminari_app.so: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Widgets_arm64-v8a.so
 libkaminari_app.so: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/liblog.so
+libkaminari_app.so: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libandroid.so
 libkaminari_app.so: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Gui_arm64-v8a.so
 libkaminari_app.so: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Core_arm64-v8a.so
 libkaminari_app.so: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libGLESv2.so
 libkaminari_app.so: /Users/AfamObioha/Library/Android/sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/29/libEGL.so
 libkaminari_app.so: CMakeFiles/kaminari_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library libkaminari_app.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/AfamObioha/kaminari_app/build-android/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libkaminari_app.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kaminari_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

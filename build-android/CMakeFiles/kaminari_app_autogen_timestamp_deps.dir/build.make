@@ -66,9 +66,9 @@ include CMakeFiles/kaminari_app_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/kaminari_app_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Core_arm64-v8a.so
-CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/macos/./libexec/moc
 CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Gui_arm64-v8a.so
+CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/macos/./libexec/moc
+CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Core_arm64-v8a.so
 CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/android_arm64_v8a/lib/libQt6Widgets_arm64-v8a.so
 CMakeFiles/kaminari_app_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.3/macos/./libexec/uic
 
